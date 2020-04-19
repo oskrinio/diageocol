@@ -47,7 +47,11 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.store-image": "0.x"
+    "vtex.store-image": "0.x",
+    "vtex.store-sitemap": "2.x",
+    "vtex.rewriter": "1.x",
+    "vtex.admin-pages": "4.x",
+    "vtex.colossus-legacy-proxy": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
