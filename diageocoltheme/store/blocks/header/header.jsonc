@@ -14,24 +14,26 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "header-row#1-desktop",
+      "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop"
     ]
   },
-  "header-row#1-desktop": {
-    "children": [
-      "header-border",
-      "notification.bar#home"
+  "flex-layout.row#1-desktop": {
+    "children": [      
+      "rich-text#home"
     ],
     "props": {
-      "fullWidth": "true",
-      "blockClass": "pre-header"
+      "blockClass": "pre-header",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     }
   },
-  "notification.bar#home": {
+  "rich-text#home": {
     "props": {
-      "content": "ENVIO GRATIS DESDE $100.000"
+      "text": "ENVIO GRATIS DESDE $100.000"
     }
   },
   "flex-layout.row#2-desktop": {

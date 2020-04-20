@@ -1,10 +1,17 @@
-.flexRowContent--barHeader{
-  background-color: black;
+
+.flexRowContent--pre-header{
+  background-color:white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.flexRowContent--barHeader{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;

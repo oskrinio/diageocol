@@ -1,7 +1,8 @@
-.styledLinkContent{
+.menuContainerNav--header-menu .styledLinkContent{
     color: #ffffff;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
   }
+

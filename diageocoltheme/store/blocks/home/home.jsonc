@@ -2,10 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#slider"
-    ],
-    "parent": {
-      "challenge": "challenge.trade-policy-condition"
-    }
+    ]
   },
   "challenge.trade-policy-condition": {
     "props": {

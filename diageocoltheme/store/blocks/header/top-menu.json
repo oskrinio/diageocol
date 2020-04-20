@@ -3,12 +3,15 @@
         "children": [
             "menu-item#bebidas",
             "menu-item#recetas"
-        ]
+        ],
+        "props":{
+            "blockClass": "header-menu"
+        }
     },
     "menu-item#bebidas": {
         "props": {
             "id": "menu-item-bebidas",
-            "blockClass": "header-pruebas",
+            "blockClass": "header-menu-bebidas",
             "type": "custom",
             "iconId": null,
             "highlight": false,
