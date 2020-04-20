@@ -1,0 +1,48 @@
+{   
+    
+    "menu-item#smartphones": {
+        "props": {
+            "id": "menu-item-smartphones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decoration/smartphones",
+                "noFollow": true,
+                "tagTitle": "Smartphones",
+                "text": "Smartphones"
+            }
+        }
+    },
+    "menu-item#videogames": {
+        "props": {
+            "id": "menu-item-videogames",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decoration/videogames",
+                "noFollow": true,
+                "tagTitle": "Videogames",
+                "text": "Videogames"
+            }
+        }
+    },
+    "menu-item#tvs": {
+        "props": {
+            "id": "menu-item-tvs",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decoration/tvs",
+                "noFollow": true,
+                "tagTitle": "TVs",
+                "text": "TVs"
+            }
+        }
+    }
+}

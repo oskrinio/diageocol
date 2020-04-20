@@ -18,8 +18,8 @@
       },
       "rich-text#1-titulo":{
         "props":{
-          "text":"Categoria",
-          "blockClass":"title"
+          "text":"Categoría",
+          "blockClass":"title-link"
         }
       },
       "menu-item#news": {

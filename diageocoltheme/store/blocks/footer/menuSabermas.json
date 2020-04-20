@@ -4,6 +4,7 @@
           "orientation": "vertical"
         },
         "children": [
+          "flex-layout.row#2-titulo",
           "menu-item#clothing",
           "menu-item#shorts",
           "menu-item#tank-tops",
@@ -11,6 +12,17 @@
           "menu-item#sweatshirt",
           "menu-item#cropped"
         ]
+      },
+      "flex-layout.row#2-titulo": {
+        "children":[
+          "rich-text#2-titulo"
+        ]
+      },
+      "rich-text#2-titulo":{
+        "props":{
+          "text":"Saber más",
+          "blockClass":"title-link"
+        }
       },
       "menu-item#clothing-mobile": {
         "props": {
@@ -133,4 +145,4 @@
           }
         }
       }    
-}
+} 
