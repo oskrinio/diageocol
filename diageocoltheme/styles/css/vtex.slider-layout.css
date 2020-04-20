@@ -25,3 +25,11 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+.sliderTrackContainer{
+  background-color:white;
+}
+
+.slideChildrenContainer--sliderbrands{
+  max-width: 100px;
+}

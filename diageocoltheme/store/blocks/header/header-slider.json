@@ -83,6 +83,7 @@
     },
     "slider-layout#sliderBrands-images": {
         "props": {
+            "blockClass": "sliderbrands",
             "autoplay": {
                 "timeout": 1000,
                 "stopOnHover": false
