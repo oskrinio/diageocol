@@ -8,6 +8,7 @@
     "menu-item#bebidas": {
         "props": {
             "id": "menu-item-bebidas",
+            "blockClass": "header-pruebas",
             "type": "custom",
             "iconId": null,
             "highlight": false,

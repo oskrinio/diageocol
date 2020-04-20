@@ -25,7 +25,8 @@
       "notification.bar#home"
     ],
     "props": {
-      "fullWidth": "true"
+      "fullWidth": "true",
+      "blockClass": "pre-header"
     }
   },
   "notification.bar#home": {
