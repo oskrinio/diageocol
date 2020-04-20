@@ -141,8 +141,8 @@
     "props": {
       "blockClass": "sliderBrand",
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
       "fullWidth": true
     },
     "children": [
