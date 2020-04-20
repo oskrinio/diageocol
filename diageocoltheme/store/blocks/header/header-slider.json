@@ -13,20 +13,90 @@
                 {
                     "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
                     "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
                 }
             ]
         }
     },
     "slider-layout#sliderBrands-images": {
         "props": {
+            "autoplay": {
+                "timeout": 1000,
+                "stopOnHover": false
+            },
             "showNavigationArrows": "never",
             "showPaginationDots": "never",
-            "usePagination": false,
+            "usePagination": true,
+            "navigationStep": 1,
             "itemsPerPage": {
                 "desktop": 10,
-                "tablet": 10,
-                "phone": 10
+                "tablet": 8,
+                "phone": 4
             },
+            "fullWidth": true,
             "infinite": true
         }
     }
