@@ -1,0 +1,38 @@
+{
+    "vtex.menu@2.x:menu#categorias": {
+        "children": [
+            "menu-item#bebidas",
+            "menu-item#recetas"
+        ]
+    },
+    "menu-item#bebidas": {
+        "props": {
+            "id": "menu-item-bebidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "BEBIDAS",
+                "text": "BEBIDAS"
+            }
+        }
+    },
+    "menu-item#recetas": {
+        "props": {
+            "id": "menu-item-recetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "RECETAS",
+                "text": "RECETAS"
+            }
+        }
+    }
+}
