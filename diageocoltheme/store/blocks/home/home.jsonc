@@ -1,8 +1,17 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "list-context.image-list#slider"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/test",
+      "defaultContentVisibility": "hidden"
+    }
   },
   "list-context.image-list#slider": {
     "children": [
@@ -24,6 +33,7 @@
   },
   "slider-layout#slider-images": {
     "props": {
+      "blockClass": "slider-images",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

@@ -51,7 +51,8 @@
     "vtex.store-sitemap": "2.x",
     "vtex.rewriter": "1.x",
     "vtex.admin-pages": "4.x",
-    "vtex.colossus-legacy-proxy": "2.x"
+    "vtex.colossus-legacy-proxy": "2.x",
+    "vtex.challenge-tp-condition": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
