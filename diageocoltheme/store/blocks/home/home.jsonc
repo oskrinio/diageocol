@@ -12,11 +12,11 @@
       "height": 650,
       "images": [
         {
-          "image": "https://diageocol.vtexassets.com/assets/vtex.file-manager-graphql/images/textDecoration___609cc5aa99d485ae7a8f38300ee8233d.jpg",
+          "image": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
           "description": "Decoration"
         },
         {
-          "image": "https://diageocol.vtexassets.com/assets/vtex.file-manager-graphql/images/marioBross___fd23db362ac1dc89a2cfcd86fb05df29.jpg",
+          "image": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
           "description": "something something"
         }
       ]
@@ -29,6 +29,7 @@
         "tablet": 1,
         "phone": 1
       },
+      "fullWidth": true,
       "infinite": true
     }
   }
