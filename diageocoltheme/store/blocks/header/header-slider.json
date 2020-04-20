@@ -1,0 +1,33 @@
+{
+    "list-context.image-list#sliderBrands": {
+        "children": [
+            "slider-layout#sliderBrands-images"
+        ],
+        "props": {
+            "height": 96,
+            "images": [
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_smirnoff.png?v=00.1",
+                    "description": "Smirnoff"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/brand_JhonnyW.png",
+                    "description": "JhonnyWalker"
+                }
+            ]
+        }
+    },
+    "slider-layout#sliderBrands-images": {
+        "props": {
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "usePagination": false,
+            "itemsPerPage": {
+                "desktop": 10,
+                "tablet": 10,
+                "phone": 10
+            },
+            "infinite": true
+        }
+    }
+}
