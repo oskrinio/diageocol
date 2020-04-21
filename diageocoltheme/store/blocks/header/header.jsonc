@@ -123,11 +123,6 @@
       "login"
     ]
   },
-  "login": {
-    "props": {
-      "showIconProfile": true
-    }
-  },
   "flex-layout.col#menu-minicart": {
     "props": {
       "blockClass": "minicart",

@@ -2,12 +2,9 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#slider"
-    ]
-  },
-  "challenge.trade-policy-condition": {
-    "props": {
-      "redirectPath": "/test",
-      "defaultContentVisibility": "hidden"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
     }
   },
   "list-context.image-list#slider": {

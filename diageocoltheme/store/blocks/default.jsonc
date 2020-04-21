@@ -4,18 +4,6 @@
       "order-placed"
     ]
   },
-  "store.login": {
-    "blocks": [
-      "login-content#default"
-    ]
-  },
-  "login-content#default": {
-    "props": {
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
-    }
-  },
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
