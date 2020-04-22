@@ -1,11 +1,15 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#1-slider",
+      "flex-layout.row#1-zona",
+      "flex-layout.row#subBanner"
+    ]
+  },
+  "flex-layout.row#1-slider": {
+    "children": [
       "list-context.image-list#slider"
-    ],
-    "parent": {
-      "challenge": "challenge.profile"
-    }
+    ]
   },
   "list-context.image-list#slider": {
     "children": [
@@ -35,6 +39,92 @@
       },
       "fullWidth": true,
       "infinite": true
+    }
+  },
+  "flex-layout.row#1-zona": {
+    "props": {
+      "blockClass": "1-zona",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#shelf-destacado",
+      "flex-layout.col#image-destacado"
+    ]
+  },
+  "flex-layout.col#shelf-destacado": {
+    "props": {
+      "blockClass": "shelf-destacado",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.product-list#seccion-destacado"
+    ]
+  },
+  "product-summary.shelf#seccion-destacado": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#seccion-destacado": {
+    "blocks": [
+      "product-summary.shelf#seccion-destacado"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ]
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "blockClass": "demo-products",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true
+    }
+  },
+  "flex-layout.col#image-destacado": {
+    "props": {
+      "blockClass": "image-destacado",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "width": "grow"
+    },
+    "children": [
+      "image#destacado"
+    ]
+  },
+  "image#destacado": {
+    "props": {
+      "src": "https://diageocol.vteximg.com.br/arquivos/img_destacado.jpg",
+      "maxWidth": "",
+      "maxHeight": ""
+    }
+  },
+  "flex-layout.row#subBanner": {
+    "children": [
+      "image#subBanner"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "image#subBanner": {
+    "props": {
+      "src": "https://diageocol.vteximg.com.br/arquivos/sub-bannerhome.jpg",
+      "maxWidth": "",
+      "maxHeight": ""
     }
   }
 }
