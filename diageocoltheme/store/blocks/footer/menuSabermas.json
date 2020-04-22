@@ -1,16 +1,14 @@
 {
     "vtex.menu@2.x:menu#footer-clothing": {
         "props": {
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "paddingTop": 6,
+          "paddingBottom": 3,
+          "blockClass": "box-items"
         },
         "children": [
           "flex-layout.row#2-titulo",
-          "menu-item#clothing",
-          "menu-item#shorts",
-          "menu-item#tank-tops",
-          "menu-item#shirts",
-          "menu-item#sweatshirt",
-          "menu-item#cropped"
+          "menu-item#Conocenos"
         ]
       },
       "flex-layout.row#2-titulo": {
@@ -55,7 +53,7 @@
           "menu-item#cropped"
         ]
       },
-      "menu-item#clothing": {
+      "menu-item#Conocenos": {
         "props": {
           "id": "menu-item-category-clothing",
           "type": "custom",
@@ -65,8 +63,8 @@
             "type": "internal",
             "href": "/clothing/d",
             "noFollow": true,
-            "tagTitle": "Clothing",
-            "text": "Clothing"
+            "tagTitle": "Conócenos",
+            "text": "Conócenos"
           }
         }
       },

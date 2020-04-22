@@ -1,14 +1,17 @@
 {
     "vtex.menu@2.x:menu#Products": {
         "props": {
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "paddingTop": 6,
+          "paddingBottom": 3,
+          "blockClass": "box-items"
         },
         "children": [
           "flex-layout.row#1-titulo",
-          "menu-item#news",
-          "menu-item#blackfriday",
-          "menu-item#sale",
-          "menu-item#personalization"
+          "menu-item#vodka",
+          "menu-item#crema",
+          "menu-item#ginebra",
+          "menu-item#ron"
         ]
       },
       "flex-layout.row#1-titulo": {
@@ -22,7 +25,7 @@
           "blockClass":"title-link"
         }
       },
-      "menu-item#news": {
+      "menu-item#vodka": {
         "props": {
           "id": "menu-item-news",
           "type": "custom",
@@ -32,12 +35,12 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTitle": "News",
-            "text": "News"
+            "tagTitle": "Vodka",
+            "text": "Vodka"
           }
         }
       },
-      "menu-item#blackfriday": {
+      "menu-item#crema": {
         "props": {
           "id": "menu-item-black-friday",
           "type": "custom",
@@ -47,12 +50,12 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTitle": "BlackFriday",
-            "text": "Black Friday"
+            "tagTitle": "Crema",
+            "text": "Crema"
           }
         }
       },
-      "menu-item#sale": {
+      "menu-item#ginebra": {
         "props": {
           "id": "menu-item-sale",
           "type": "custom",
@@ -62,12 +65,12 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTitle": "Sale",
-            "text": "Sale"
+            "tagTitle": "Ginebra",
+            "text": "Ginebra"
           }
         }
       },
-      "menu-item#personalization": {
+      "menu-item#ron": {
         "props": {
           "id": "menu-item-personalization",
           "type": "custom",
@@ -77,8 +80,8 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTitle": "Personalization",
-            "text": "Personalization"
+            "tagTitle": "Ron",
+            "text": "Ron"
           }
         }
       }

@@ -22,7 +22,7 @@
       "social-networks"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "footer",
       "paddingTop": 6,
       "paddingBottom": 3
     }

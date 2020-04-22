@@ -67,6 +67,18 @@
   font-weight: 700;
 }
 
+.container--title-link{
+ border-bottom: 1px solid #ffffff;
+}
+.container--title-link .paragraph--title-link{
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
