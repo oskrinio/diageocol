@@ -58,7 +58,7 @@
       "blockClass": "shelf-destacado",
       "preventHorizontalStretch": false,
       "preventVerticalStretch": false,
-      "fullWidth": false
+      "fullWidth": true
     },
     "children": [
       "list-context.product-list#seccion-destacado"
@@ -69,8 +69,13 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-buy-button"
-    ]
+      "product-summary-buy-button",
+      "product-summary-space"
+    ],
+    "props":{
+      "width": 100,
+      "hideUnavailableItems": true
+    }
   },
   "list-context.product-list#seccion-destacado": {
     "blocks": [
@@ -83,20 +88,18 @@
   "slider-layout#demo-products": {
     "props": {
       "blockClass": "demo-products",
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 3,
-        "phone": 1
-      },
-      "fullWidth": true,
-      "infinite": true
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "usePagination": true,
+      "navigationStep": 1,
+      "infinite": true,
+      "fullWidth": true
     }
   },
   "flex-layout.col#image-destacado": {
     "props": {
       "blockClass": "image-destacado",
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false,
+      "rowGap": "3",
       "width": "grow"
     },
     "children": [
@@ -114,7 +117,7 @@
     "children": [
       "image#subBanner"
     ],
-    "props":{
+    "props": {
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true

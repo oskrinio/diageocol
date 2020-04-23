@@ -39,3 +39,4 @@ lib
 react/package-lock.json
 diageocoltheme/store/interfaces.json
 diageocoltheme/store/plugins.json
+store-theme/

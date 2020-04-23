@@ -1,13 +1,14 @@
 
 .flexRowContent--pre-header{
-  background-color:white;
+  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .flexRowContent--barHeader{
-  background-color: black;
+  background-color:green;
   display: flex;
   justify-content: center;
     align-items: center;
@@ -115,8 +116,24 @@
   background-color: black;
   padding: 3% 6%;
 }
-
-.flexRowContent--1-zona{
-  
+.vtex-flex-layout-0-x-flexCol--shelf-destacado{
+ 
+  border:1px solid yellow;
 }
-.flexCol--shelf-destacado{}
+.flexColChild.flexColChild--image-destacado{
+ 
+  border:1px solid blue;
+}
+.flexColChild--image-destacado{
+ 
+  border:1px solid blue;
+
+}
+ 
+.imageElement{
+  width: 100%;
+  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
