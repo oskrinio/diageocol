@@ -1,7 +1,14 @@
 {
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
   "header.full": {
     "blocks": [
-      "header-layout.desktop"
+      "header-layout.desktop",
+      "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
@@ -20,7 +27,7 @@
     ]
   },
   "flex-layout.row#1-desktop": {
-    "children": [      
+    "children": [
       "rich-text#home"
     ],
     "props": {
@@ -146,5 +153,44 @@
     "children": [
       "list-context.image-list#sliderBrands"
     ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": ["vtex.menu@2.x:menu#categorias"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "TheBar.com",
+      "href": "/",
+      "url": "https://diageocol.vtexassets.com/arquivos/logoMobile.jpg",
+      "width": 642,
+      "height": 52
+    }
   }
 }
