@@ -53,7 +53,17 @@
     "vtex.admin-pages": "4.x",
     "vtex.colossus-legacy-proxy": "2.x",
     "vtex.challenge-tp-condition": "0.x",
-    "vtex.store-form": "0.x"
+    "vtex.store-form": "0.x",
+    "vtex.product-customizer": "2.x",
+    "vtex.reviews-and-ratings": "1.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.product-gifts": "0.x",
+    "vtex.product-price": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
