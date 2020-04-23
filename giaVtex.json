@@ -1,0 +1,61 @@
+{
+    "Entorno de desarrollo": {
+        "vtex IO": {
+            "cmd": "yarn global add vtex",
+            "desc": "crear librerias vtex"
+        },
+        "login": {
+            "cmd": "vtex login {account}",
+            "desc": "logearse al vtex account asignado"
+        },
+        "workspace": [
+            {
+                "cmd:": "vtex use {workspacename}",
+                "desc": "crear su propio workspace"
+            },
+            {
+                "cmd:": "vtex workspace create {workspacename} --production",
+                "desc": "crear su propio workspace de produccion"
+            },
+            {
+                "cmd": "https://{workspacename}--{account}.myvtex.com",
+                "desc": "path del workspacecreado"
+            }
+        ],
+        "Store theme": [
+            {
+                "cmd": "vtex install vtex.store-sitemap"
+            },
+            {
+                "cmd": "vtex install vtex.store"
+            },
+            {
+                "cmd": "vtex install vtex.rewriter --force"
+            },
+            {
+                "cmd": "vtex install vtex.admin-pages"
+            },
+            {
+                "cmd": "vtex install vtex.colossus-legacy-proxy"
+            }
+        ]
+    },
+    "vtex IO development": [
+        {
+            "cmd": "vtex workspace promote",
+            "desc": "pasar el workspace a master"
+        },
+        {
+            "cmd": "vtex publish",
+            "desc": "publicar version de workspace productivo"
+        },
+        {
+            "cmd": "vtex install {vendor.name}",
+            "desc": "instalar en workspace una version publicada"
+        },
+        {
+            "cmd": "vtex browse",
+            "desc": "navegar al workspace en uso"
+        }
+    ]
+}
