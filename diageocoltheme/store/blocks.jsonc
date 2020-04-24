@@ -61,8 +61,8 @@
     },
     "stack-layout#prodsum": {
         "children": [
-            "product-summary-image#shelf",
-            "modal-trigger#quickview"
+            "product-rating-inline",
+            "product-highlights"
         ]
     },
     "product-summary-image": {
@@ -72,7 +72,7 @@
     },
     "product-summary-specification-badges": {
         "props": {
-            "specificationGroupName": "Group",
+            "specificationGroupName": "allSpecifications",
             "specificationName": "On Sale",
             "visibleWhen": "True",
             "displayValue": "SPECIFICATION_NAME"
