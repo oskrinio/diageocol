@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "slider-layout#sliderprincipal",
+      "flex-layout.row#1-destacado",
       "flex-layout.row#1-zona",
       "flex-layout.row#subBanner",
       "flex-layout.row#deals" 
@@ -45,6 +46,38 @@
       "infinite": true
     }
   },
+  "flex-layout.row#1-destacado":{
+    "children": [
+      "flex-layout.row#rt-destacados"
+    ],
+    "props": {
+      "blockClass": "1-destacado"
+    }
+  },
+  "flex-layout.row#rt-destacados": {
+    "children": [
+      "rich-text#rt-destacados",
+      "rich-text#rt-destacadosSubtitle"
+    ],
+    "props": {
+      "blockClass": "rt-destacados",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "rich-text#rt-destacados": {
+    "props": {
+      "text": "DESTACADOS"
+    }
+  },
+  "rich-text#rt-destacadosSubtitle": {
+    "props": {
+      "text": "Los más pedidos"
+    }
+  },
+
   "flex-layout.row#1-zona": {
     "children": [
       "flex-layout.col#shelf-destacado",
@@ -128,16 +161,14 @@
       "image#subBanner"
     ],
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "shelf-destacado"
     }
   },
   "image#subBanner": {
     "props": {
       "src": "https://diageocol.vteximg.com.br/arquivos/sub-bannerhome.jpg",
-      "maxWidth": "",
-      "maxHeight": ""
+      "blockClass": "img-subBanner"
     }
   },
   "flex-layout.row#deals": {
@@ -149,7 +180,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
