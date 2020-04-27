@@ -155,9 +155,17 @@
       "list-context.image-list#sliderBrands"
     ]
   },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
   "sticky-layout#1-mobile": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile",
+      "flex-layout.row#3-desktop"
     ]
   },
   "flex-layout.row#1-mobile": {
@@ -165,7 +173,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -180,18 +188,43 @@
     ]
   },
   "menu#drawer": {
-    "children": ["vtex.menu@2.x:menu#categorias"],
+    "children": [
+      "menu-item#bebidas",
+      "menu-item#recetas"
+    ],
     "props": {
       "orientation": "vertical"
     }
   },
   "logo#mobile": {
     "props": {
-      "title": "TheBar.com",
+      "title": "Logo",
       "href": "/",
-      "url": "https://diageocol.vtexassets.com/arquivos/logoMobile.jpg",
-      "width": 642,
-      "height": 52
+      "url": "https://diageocol.vteximg.com.br/arquivos/logoMobile.jpg",
+      "width": "",
+      "height": ""
+    }
+  },
+  "flex-layout.row#2-mobile":{
+    "children": ["flex-layout.col#search-barMobile"]
+  },
+  "flex-layout.col#search-barMobile": {
+    "props": {
+      "blockClass": "search-barMobile",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "search-bar#Mobile"
+    ]
+  },
+  "search-bar#Mobile": {
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "¿Qué estas buscando?",
+      "maxWidth": 273
     }
   }
 }
