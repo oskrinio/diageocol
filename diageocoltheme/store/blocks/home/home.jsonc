@@ -244,20 +244,19 @@
       "product-summary-price",
       "product-summary-sku-selector",
       "product-summary-buy-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "shelf-destacadoX",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "width": "70%"
+    }
   },
   "info-card#home": {
     "props": {
       "text": "One day delivery",
       "blockClass": "deals"
-    }
-  },
-  "flex-layout.row#newsletter": {
-    "children": [
-      "newsletter"
-    ],
-    "props": {
-      "blockClass": "newsletter"
     }
   }
 }
