@@ -5,6 +5,7 @@
       "flex-layout.row#1-destacado",
       "flex-layout.row#1-zona",
       "flex-layout.row#subBanner",
+      "tab-layout#home",
       "flex-layout.row#deals" 
     ]
   },
@@ -25,11 +26,15 @@
       "images": [
         {
           "image": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
-          "description": "Decoration"
+          "description": "Decoration",
+          "mobileImage": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
+          "url": "/"
         },
         {
           "image": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
-          "description": "something something"
+          "description": "something something",
+          "mobileImage": "https://diageocol.vteximg.com.br/arquivos/ids/155418/banner_desktop.jpg",
+          "url": "/"
         }
       ]
     }
@@ -77,7 +82,6 @@
       "text": "Los más pedidos"
     }
   },
-
   "flex-layout.row#1-zona": {
     "children": [
       "flex-layout.col#shelf-destacado",
@@ -103,7 +107,7 @@
   "product-summary.shelf#seccion-destacado": {
     "children": [
       "stack-layout#prodsum",
-      "product-summary-image#shelf",
+     "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
       "product-summary-price",
@@ -169,6 +173,83 @@
     "props": {
       "src": "https://diageocol.vteximg.com.br/arquivos/sub-bannerhome.jpg",
       "blockClass": "img-subBanner"
+    }
+  },
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2"
+      ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Home 1",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Home 2"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "carousel#home"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "shelf#home",
+      "info-card#home"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": "24px"
+    }
+  },
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
+  },
+  "info-card#home": {
+    "props": {
+      "text": "One day delivery",
+      "blockClass": "deals"
     }
   },
   "flex-layout.row#deals": {
