@@ -257,7 +257,8 @@
       "newsletter"
     ],
     "props": {
-      "blockClass": "newsletter"
+      "blockClass": "newsletter",
+      "fullWidth": true
     }
   }
 }

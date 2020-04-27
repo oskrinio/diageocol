@@ -100,5 +100,12 @@
         "blocks": [
             "rich-text#not-found"
         ]
+    },
+    "newsletter":{
+        "props":{
+            "label": "SUSCRÍBETE",
+            "submit":"SUSCRIBIRME",
+            "placeholder": "e-mail"
+        }
     }
 }

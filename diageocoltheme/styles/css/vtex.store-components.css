@@ -16,3 +16,15 @@
     color:  #FFFFFF;
 }
 
+.autoCompleteOuterContainer--vtex-input-prefix__group, .vtex-input-prefix__group{ /*intendado darle borders redondeados al search box*/
+    border-radius: 8px;
+}
+
+.newsletter{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.buttonContainer .vtex-button, .buttonContainer--vtex-button, .bg-action-primary {
+    color: #000000;
+    background-color: #FFFFFF;
+}
