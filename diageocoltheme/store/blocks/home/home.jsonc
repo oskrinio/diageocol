@@ -263,8 +263,9 @@
     "children":[
       "newsletter"
     ],
-    "props":{
-      "blockClass": "newsletter"
+    "props": {
+      "blockClass": "newsletter",
+      "fullWidth": true
     }
   }
 

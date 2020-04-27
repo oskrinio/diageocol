@@ -103,7 +103,9 @@
     },
     "newsletter":{
         "props":{
-            "label": "my newsletter"
+            "label": "SUSCRÍBETE",
+            "submit":"SUSCRIBIRME",
+            "placeholder": "e-mail"
         }
     }
 }

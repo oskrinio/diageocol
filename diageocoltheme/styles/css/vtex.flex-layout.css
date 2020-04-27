@@ -1,10 +1,15 @@
 .flexRowContent--pre-header{
-    background-color: red;
+    background-color: white;
 }
 .flexRowContent--barHeader{
-  background-color: aqua;   
+  background-color: black;  
+  display: flex;
+   align-items: center; 
 }
 .flexRow--main-header-mobile{
   background-color: #000000;
+}
+.flexRowContent--footer{
+  background-color: #000;
 }
 
