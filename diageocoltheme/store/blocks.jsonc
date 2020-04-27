@@ -100,5 +100,10 @@
         "blocks": [
             "rich-text#not-found"
         ]
+    },
+    "newsletter":{
+        "props":{
+            "label": "my newsletter"
+        }
     }
 }

@@ -1,88 +1,88 @@
 {
-    "vtex.menu@2.x:menu#Products": {
-        "props": {
-          "orientation": "vertical",
-          "paddingTop": 6,
-          "paddingBottom": 3,
-          "blockClass": "box-items"
-        },
-        "children": [
-          "flex-layout.row#1-titulo",
-          "menu-item#vodka",
-          "menu-item#crema",
-          "menu-item#ginebra",
-          "menu-item#ron"
-        ]
-      },
-      "flex-layout.row#1-titulo": {
-        "children":[
-          "rich-text#1-titulo"
-        ]
-      },
-      "rich-text#1-titulo":{
-        "props":{
-          "text":"Categoría",
-          "blockClass":"title-link"
-        }
-      },
-      "menu-item#vodka": {
-        "props": {
-          "id": "menu-item-news",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Vodka",
-            "text": "Vodka"
-          }
-        }
-      },
-      "menu-item#crema": {
-        "props": {
-          "id": "menu-item-black-friday",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Crema",
-            "text": "Crema"
-          }
-        }
-      },
-      "menu-item#ginebra": {
-        "props": {
-          "id": "menu-item-sale",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Ginebra",
-            "text": "Ginebra"
-          }
-        }
-      },
-      "menu-item#ron": {
-        "props": {
-          "id": "menu-item-personalization",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Ron",
-            "text": "Ron"
-          }
-        }
+  "vtex.menu@2.x:menu#Categorias-desktop": {
+    "props": {
+      "orientation": "vertical",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "blockClass": "box-items"
+    },
+    "children": [
+      "flex-layout.row#titulo-categoria",
+      "menu-item#vodka",
+      "menu-item#crema",
+      "menu-item#ginebra",
+      "menu-item#ron"
+    ]
+  },
+  "flex-layout.row#titulo-categoria": {
+    "children": [
+      "rich-text#titulo-categoria"
+    ]
+  },
+  "rich-text#titulo-categoria": {
+    "props": {
+      "text": "Categoría",
+      "blockClass": "title-link"
+    }
+  },
+  "menu-item#vodka": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Vodka",
+        "text": "Vodka"
       }
+    }
+  },
+  "menu-item#crema": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Crema",
+        "text": "Crema"
+      }
+    }
+  },
+  "menu-item#ginebra": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ginebra",
+        "text": "Ginebra"
+      }
+    }
+  },
+  "menu-item#ron": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ron",
+        "text": "Ron"
+      }
+    }
+  }
 }

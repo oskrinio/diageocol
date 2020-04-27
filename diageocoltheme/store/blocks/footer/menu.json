@@ -1,13 +1,25 @@
 {
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "vtex.menu@2.x:menu#ayuda-desktop": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "flex-layout.row#titulo-ayuda",
+      "menu-item#tyc",
+      "menu-item#privacidad",
+      "menu-item#cyd"
     ]
+  },
+  "flex-layout.row#titulo-ayuda": {
+    "children": [
+      "rich-text#titulo-ayuda"
+    ]
+  },
+  "rich-text#titulo-ayuda": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "title-link"
+    }
   },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
@@ -15,52 +27,50 @@
     },
     "children": [
       "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#sabermas-mobile",
+      "menu-item#ayuda-mobile"
     ]
   },
-  "menu-item#decoration-mobile": {
+  "menu-item#ayuda-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Ayuda",
+        "text": "Ayuda"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ayuda"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#ayuda": {
+    "children": ["vtex.menu@2.x:menu#footer-ayuda-mobile"]
   },
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-ayuda-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [ 
+      "menu-item#tyc",
+      "menu-item#privacidad",
+      "menu-item#cyd"
+    ]
+  },
+  "menu-item#sabermas-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Saber más", 
+        "text": "Saber más"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sabermas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sabermas": {
+    "children": ["vtex.menu@2.x:menu#footer-sabermas-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-sabermas-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#conocenos"
     ]
   }
 }

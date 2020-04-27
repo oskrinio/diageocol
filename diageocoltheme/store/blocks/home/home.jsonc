@@ -6,7 +6,7 @@
       "flex-layout.row#1-zona",
       "flex-layout.row#subBanner",
       "tab-layout#home",
-      "flex-layout.row#newsletter"  
+      "flex-layout.row#newsletter"   
     ]
   },
   "slider-layout#sliderprincipal": {
@@ -258,5 +258,14 @@
       "text": "One day delivery",
       "blockClass": "deals"
     }
+  },
+  "flex-layout.row#newsletter":{
+    "children":[
+      "newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter"
+    }
   }
+
 }
