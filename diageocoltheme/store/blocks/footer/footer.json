@@ -11,8 +11,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ],
     "props": {
       "fullWidth": true
@@ -30,8 +29,8 @@
     "props": {
       "blockClass": "footer",
       "paddingTop": 6,
-      "paddingBottom": 3
-      
+      "paddingBottom": 3,
+      "fullWidth": true
     }
   },
   "social-networks": {
@@ -57,34 +56,78 @@
     }
   },
   "flex-layout.row#footer-2-desktop": {
+    "props": {
+      "fullWidth": true,
+      "rowGap": 1
+      
+    },
     "children": [
-      "accepted-payment-methods"
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+      "flex-layout.row#footer-2-1-desktop",
+      "flex-layout.row#footer-2-2-desktop",
+      "flex-layout.row#footer-2-3-desktop"
+    ]
   },
-  "accepted-payment-methods": {
+  "flex-layout.row#footer-2-1-desktop": {
     "props": {
-      "paymentMethods": [
-        "MasterCard",
-        "Visa",
-        "Diners Club"
-      ]
-    }
-  },
-  "flex-layout.row#footer-3-desktop": {
+      "horizontalAlign": "center",      
+      "fullWidth": true
+    },
     "children": [
-      "rich-text#footer"
-    ],
+      "image#footerPagos"
+    ]
+  },
+  "image#footerPagos": {
     "props": {
-      "blockClass": "credits"
+      "src": "https://diageocol.vtexassets.com/arquivos/metodos_pago.jpg",
+      "blockClass": "image-footerPagos",
+      "fullWidth": true,
+      "width": 302,
+      "height": 54
     }
   },
-  "rich-text#footer": {
+  "flex-layout.row#footer-2-2-desktop": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "horizontalAlign": "center",      
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#footerCopyright"
+    ]
+  },
+  "rich-text#footerCopyright": {
+    "props": {
+      "text": "© Copyright 2020 TheBar.com.co. Todos los Derechos Reservados."
+    }
+  },
+  "flex-layout.row#footer-2-3-desktop":{
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "logo#footerBrandlive",
+      "logo#footerVtex"   
+    ]
+  },
+  "logo#footerBrandlive": {
+    "props": {
+      "url": "https://diageocol.vtexassets.com/arquivos/poweredBrandLive.jpg",
+      "blockClass": "image-footerBrandlive",
+      "fullWidth": true,
+      "width": 196,
+      "height": 91,
+      "href": "httpS://www.brandlivecommerce.com/",
+      "target": "_seft"
+    }
+  },
+  "logo#footerVtex": {
+    "props": {
+      "url": "https://diageocol.vtexassets.com/arquivos/TechnologyVtex.jpg",
+      "blockClass": "image-footerVtex",
+      "fullWidth": true,
+      "width": 177,
+      "height": 100,
+      "href": "https://vtex.com/co-es/"
     }
   },
   "footer-layout.mobile": {
