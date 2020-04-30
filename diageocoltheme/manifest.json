@@ -1,12 +1,16 @@
 {
   "vendor": "diageocol",
   "name": "diageocoltheme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
     "docs": "0.x"
+  },
+  "billingOptions": {
+    "free": true,
+    "termsURL": "https://url.to.the/terms"
   },
   "mustUpdateAt": "2020-16-04",
   "scripts": {
