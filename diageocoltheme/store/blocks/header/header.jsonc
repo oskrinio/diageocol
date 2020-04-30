@@ -33,14 +33,14 @@
     "props": {
       "blockClass": "pre-header",
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true
     }
   },
   "rich-text#home": {
     "props": {
-      "text": "ENVIO GRATIS DESDE $100.000"
+      "text": "ENVIO GRATIS DESDE $100.000",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.row#2-desktop": {

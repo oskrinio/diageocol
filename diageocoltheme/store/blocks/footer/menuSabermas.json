@@ -72,66 +72,6 @@
       }
     }
   },
-  "menu-item#vodka": {
-    "props": {
-      "id": "menu-item-vodka",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vodka",
-        "noFollow": false,
-        "tagTitle": "Vodka",
-        "text": "Vodka"
-      }
-    }
-  },
-  "menu-item#crema": {
-    "props": {
-      "id": "menu-item-crema",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/crema",
-        "noFollow": false,
-        "tagTitle": "Crema",
-        "text": "Crema"
-      }
-    }
-  },
-  "menu-item#ginebra": {
-    "props": {
-      "id": "menu-item-ginebra",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/ginebra",
-        "noFollow": false,
-        "tagTitle": "Ginebra",
-        "text": "Ginebra"
-      }
-    }
-  },
-  "menu-item#ron": {
-    "props": {
-      "id": "menu-item-ron",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/ron",
-        "noFollow": false,
-        "tagTitle": "Ron",
-        "text": "Ron"
-      }
-    }
-  },
   "menu-item#malta": {
     "props": {
       "id": "menu-item-malta",
