@@ -40,7 +40,8 @@
     "props": {
       "text": "ENVIO GRATIS DESDE $100.000",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass":"text-envio"   
     }
   },
   "flex-layout.row#2-desktop": {
@@ -95,11 +96,20 @@
       "search-bar"
     ]
   },
-  "search-bar": {
+  "search-bar": { 
     "props": {
       "displayMode": "search-and-clear-buttons",
       "placeholder": "Busca Aquí",
-      "maxWidth": 273
+      "maxWidth": 290,
+      "height":38,
+      "border":".bw0",
+      "blockClass": "wrapper-search", 
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "paddingInput":20,
+      "context": {
+        "border": 0
+      }
     }
   },
   "flex-layout.col#menu-link": {
