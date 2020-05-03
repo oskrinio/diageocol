@@ -1,0 +1,108 @@
+{
+    "minicart.v2": {
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children": [
+            "minicart-product-list",
+            "flex-layout.row#minicart-footer"
+        ]
+    },
+    "flex-layout.row#minicart-footer": {
+        "props": {
+            "blockClass": "minicart-footer"
+        },
+        "children": [
+            "flex-layout.col#minicart-footer"
+        ]
+    },
+    "flex-layout.col#minicart-footer": {
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    },
+    "minicart-product-list": {
+        "blocks": [
+            "product-list#minicart"
+        ]
+    },
+    "product-list#minicart": {
+        "blocks": [
+            "product-list-content-mobile"
+        ]
+    },
+    "minicart-summary": {
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "checkout-summary.compact#minicart": {
+        "children": [
+            "summary-totalizers#minicart"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ]
+        }
+    },
+    "summary-totalizers#minicart": {
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false
+        }
+    },
+    "minicart-empty-state": {
+        "children": [
+            "flex-layout.row#empty-state"
+        ]
+    },
+    "flex-layout.row#empty-state": {
+        "children": [
+            "flex-layout.col#empty-state"
+        ]
+    },
+    "flex-layout.col#empty-state": {
+        "children": [
+            "rich-text#1-empty-state",
+            "image#empty-state",
+            "rich-text#2-empty-state"
+        ],
+        "props":{
+            "blockClass": "layout-empty-state",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#1-empty-state": {
+        "props": {
+            "text": "CARRITO DE COMPRAS VACÍO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "rich-text-1-empty-state"
+        }
+    },
+    "image#empty-state": {
+        "props": {
+            "src": "/arquivos/icon-cart-empty.png",
+            "blockClass": "image-empty-state",
+            "fullWidth": true,
+            "width": 109,
+            "height": 131
+        }
+    },
+    "rich-text#2-empty-state": {
+        "props": {
+            "text": "NO HAS AGREGADO NINGÚN PRODUCTO A TU CARRO DE COMPRAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "rich-text-1-empty-state"
+        }
+    }
+}

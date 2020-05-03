@@ -20,3 +20,6 @@
     color: #FFFFFF;
     border-bottom: 3px solid white;
 }
+.autoCompleteOuterContainer{
+    border: none;
+}

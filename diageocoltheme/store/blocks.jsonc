@@ -42,6 +42,7 @@
     },
     "product-summary.shelf": {
         "children": [
+            "product-summary-image#shelf",
             "stack-layout#prodsum",
             "product-summary-name",
             "product-rating-inline",
@@ -61,13 +62,19 @@
     },
     "stack-layout#prodsum": {
         "children": [
-            "product-rating-inline",
+            "product-rating-inline", 
             "product-highlights"
         ]
     },
     "product-summary-image": {
         "props": {
             "height": 220
+        }
+    },
+    "add-to-cart-button":{
+        "props":{
+            "Bottom": 0,
+            "buttonText": "COMPRAR"
         }
     },
     "product-summary-specification-badges": {
@@ -108,4 +115,5 @@
             "placeholder": "e-mail"
         }
     }
+    
 }

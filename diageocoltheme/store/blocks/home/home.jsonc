@@ -111,7 +111,7 @@
       "product-summary-name",
       "product-summary-space",
       "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button"
       
     ],
     "props":{
@@ -243,7 +243,7 @@
       "product-summary-image",
       "product-summary-price",
       "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "shelf-destacadoX",
