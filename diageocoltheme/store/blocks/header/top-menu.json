@@ -27,6 +27,7 @@
     "menu-item#recetas": {
         "props": {
             "id": "menu-item-recetas",
+            "blockClass": "header-menu-recetas",
             "type": "custom",
             "iconId": null,
             "highlight": false,

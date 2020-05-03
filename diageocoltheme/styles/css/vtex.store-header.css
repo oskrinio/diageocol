@@ -1,4 +1,3 @@
-
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)
   :global(.vtex-store-components-3-x-logoLink),
@@ -86,5 +85,35 @@
 /*** border input search **/
 :global(.vtex-store-components-3-x-searchBarContainer)
   :global(.vtex-input-prefix__group){
-  border: none;
+    border:none;
+    height: 30px;
+    border-radius: 6px;
+   
 }
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-styleguide-9-x-input){
+    color: #c5c5c5;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+  }  
+
+  /***** minicard ****/
+:global(.vtex-minicart-2-x-minicartTitle)  {
+    display: none;
+  }
+:global(.vtex-minicart-2-x-drawerContent)  {
+  box-shadow: 0 -1px 6px #000000;
+  background-color: #e4e4e4;
+  opacity: 0.98; 
+}  
+:global(.vtex-minicart-2-x-minicartSideBarContentWrapper)
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer),
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer)
+  :global(.vtex-flex-layout-0-x-flexRow),
+  :global(.vtex-flex-layout-0-x-flexRow)
+  :global(.vtex-flex-layout-0-x-flexRowContent){
+    height: 100%;
+  } 
+ 

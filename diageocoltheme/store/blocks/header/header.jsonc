@@ -122,15 +122,14 @@
   },
   "flex-layout.col#menu-login": {
     "props": {
-      "blockClass": "login",
+      "blockClass": "login-diageo",
       "horizontalAlign": "rigth",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "login"
-    ]
+      "login" ]
   },
   "flex-layout.col#menu-minicart": {
     "props": {
