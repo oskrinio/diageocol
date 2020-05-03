@@ -1,0 +1,13 @@
+
+.container--text-envio{
+   height: 24px;
+}
+.paragraph--text-envio{
+    color: #707070;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px; 
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}

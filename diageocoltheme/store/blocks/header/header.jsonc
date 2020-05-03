@@ -40,7 +40,8 @@
     "props": {
       "text": "ENVIO GRATIS DESDE $100.000",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "text-envio"
     }
   },
   "flex-layout.row#2-desktop": {
