@@ -155,7 +155,7 @@
   },
   "image#destacado": {
     "props": {
-      "src": "https://diageocol.vteximg.com.br/arquivos/img_destacado.jpg",
+      "src": "/arquivos/img_destacado.jpg",
       "fullWidth": "true",
       "blockClass": "image-destacadoImg"
     }
@@ -172,7 +172,7 @@
   },
   "image#subBanner": {
     "props": {
-      "src": "https://diageocol.vteximg.com.br/arquivos/sub-bannerhome.jpg",
+      "src": "/arquivos/sub-bannerhome.jpg",
       "blockClass": "img-subBanner"
     }
   },
@@ -230,7 +230,7 @@
   },
   "carousel#home": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "/arquivos/box.png",
       "maxHeight": "24px"
     }
   },
