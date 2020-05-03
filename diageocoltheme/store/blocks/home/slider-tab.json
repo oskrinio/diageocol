@@ -1,0 +1,111 @@
+{
+    "list-context.product-list#list-cremas": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "1",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-vodka": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "2",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-ginebra": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "3",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-maltas": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "4",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-ron": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "5",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-tequila": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "6",
+            "hideUnavailableItems": true
+        }
+    },
+    "list-context.product-list#list-whisky": {
+        "blocks": [
+            "product-summary.shelf#slider-tab"
+        ],
+        "children": [
+            "slider-layout#slider-tab"
+        ],
+        "props": {
+            "category": "7",
+            "hideUnavailableItems": true
+        }
+    },
+    "slider-layout#slider-tab": {
+        "props": {
+            "blockClass": "home-slider-tab",
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "usePagination": true,
+            "navigationStep": 1,
+            "infinite": true,
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 1
+            }
+        }
+    },
+    "product-summary.shelf#slider-tab": {
+        "children": [
+            "product-summary-image#shelf",
+            "stack-layout#prodsum",
+            "product-summary-name",
+            "flex-layout.row#selling-price-savings",
+            "add-to-cart-button"
+        ]
+    }
+}
