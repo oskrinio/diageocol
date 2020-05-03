@@ -1,0 +1,122 @@
+{
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#tab-cremas",
+            "tab-list.item#tab-vodka",
+            "tab-list.item#tab-ginebra",
+            "tab-list.item#tab-maltas",
+            "tab-list.item#tab-ron",
+            "tab-list.item#tab-tequila",
+            "tab-list.item#tab-whisky"
+        ]
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#tab-cremas",
+            "tab-content.item#tab-vodka",
+            "tab-content.item#tab-ginebra",
+            "tab-content.item#tab-maltas",
+            "tab-content.item#tab-ron",
+            "tab-content.item#tab-tequila",
+            "tab-content.item#tab-whisky"
+        ]
+    },
+    "tab-list.item#tab-cremas": {
+        "props": {
+            "tabId": "cremas",
+            "label": "Cremas"
+        }
+    },
+    "tab-list.item#tab-ginebra": {
+        "props": {
+            "tabId": "ginebra",
+            "label": "Ginebra"
+        }
+    },
+    "tab-list.item#tab-maltas": {
+        "props": {
+            "tabId": "maltas",
+            "label": "Maltas"
+        }
+    },
+    "tab-list.item#tab-ron": {
+        "props": {
+            "tabId": "ron",
+            "label": "Ron"
+        }
+    },
+    "tab-list.item#tab-tequila": {
+        "props": {
+            "tabId": "tequila",
+            "label": "Tequila"
+        }
+    },
+    "tab-list.item#tab-vodka": {
+        "props": {
+            "tabId": "vodka",
+            "label": "Vodka"
+        }
+    },
+    "tab-list.item#tab-whisky": {
+        "props": {
+            "tabId": "whisky",
+            "label": "Whisky"
+        }
+    },
+    "tab-content.item#tab-cremas": {
+        "children": [
+            "list-context.product-list#list-cremas"
+        ],
+        "props": {
+            "tabId": "cremas"
+        }
+    },
+    "tab-content.item#tab-vodka": {
+        "children": [
+            "list-context.product-list#list-vodka"
+        ],
+        "props": {
+            "tabId": "vodka"
+        }
+    },
+    "tab-content.item#tab-ginebra": {
+        "children": [
+            "list-context.product-list#list-ginebra"
+        ],
+        "props": {
+            "tabId": "ginebra"
+        }
+    },
+    "tab-content.item#tab-maltas": {
+        "children": [
+            "list-context.product-list#list-maltas"
+        ],
+        "props": {
+            "tabId": "maltas"
+        }
+    },
+    "tab-content.item#tab-ron": {
+        "children": [
+            "list-context.product-list#list-ron"
+        ],
+        "props": {
+            "tabId": "ron"
+        }
+    },
+    "tab-content.item#tab-tequila": {
+        "children": [
+            "list-context.product-list#list-tequila"
+        ],
+        "props": {
+            "tabId": "tequila"
+        }
+    },
+    "tab-content.item#tab-whisky": {
+        "children": [
+            "list-context.product-list#list-whisky"
+        ],
+        "props": {
+            "tabId": "whisky"
+        }
+    }
+}

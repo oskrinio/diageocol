@@ -75,7 +75,8 @@
         "props": {
             "Bottom": 0,
             "buttonText": "COMPRAR"
-        }
+        },
+        "title": "COMPRAR"
     },
     "product-summary-specification-badges": {
         "props": {

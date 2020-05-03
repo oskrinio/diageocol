@@ -5,8 +5,8 @@
       "flex-layout.row#1-destacado",
       "flex-layout.row#1-zona",
       "flex-layout.row#subBanner",
-      "tab-layout#home",
-      "flex-layout.row#newsletter"   
+      "flex-layout.row#tab",
+      "flex-layout.row#newsletter"
     ]
   },
   "slider-layout#sliderprincipal": {
@@ -15,7 +15,7 @@
     ],
     "props": {
       "blockClass": "pruebas"
-    }  
+    }
   },
   "list-context.image-list#slider": {
     "children": [
@@ -51,7 +51,7 @@
       "infinite": true
     }
   },
-  "flex-layout.row#1-destacado":{
+  "flex-layout.row#1-destacado": {
     "children": [
       "flex-layout.row#rt-destacados"
     ],
@@ -90,7 +90,7 @@
     "props": {
       "blockClass": "1-zona",
       "fullWidth": "true"
-    } 
+    }
   },
   "flex-layout.col#shelf-destacado": {
     "props": {
@@ -111,19 +111,21 @@
     "children": [
       "slider-layout#home-products-list-seccion-destacado",
       "recommendation-shelf"
-    ]
+    ],
+    "props": {
+      "hideUnavailableItems": true
+    }
   },
   "product-summary.shelf#seccion-destacado": {
     "children": [
       "stack-layout#prodsum",
-     "product-summary-image#shelf",
+      "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
-      
     ],
-    "props":{
+    "props": {
       "padding": 10,
       "hideUnavailableItems": true
     }
@@ -146,7 +148,7 @@
   },
   "flex-layout.col#image-destacado": {
     "props": {
-      "blockClass": "image-destacado", 
+      "blockClass": "image-destacado",
       "width": "30%"
     },
     "children": [
@@ -155,11 +157,10 @@
   },
   "image#destacado": {
     "props": {
-      "src": "https://diageocol.vteximg.com.br/arquivos/img_destacado.jpg",
+      "src": "/arquivos/img_destacado.jpg",
       "fullWidth": "true",
       "blockClass": "image-destacadoImg"
     }
-    
   },
   "flex-layout.row#subBanner": {
     "children": [
@@ -172,8 +173,46 @@
   },
   "image#subBanner": {
     "props": {
-      "src": "https://diageocol.vteximg.com.br/arquivos/sub-bannerhome.jpg",
+      "src": "/arquivos/sub-bannerhome.jpg",
       "blockClass": "img-subBanner"
+    }
+  },
+  "flex-layout.row#tab": {
+    "children": [
+      "flex-layout.row#tab-title",
+      "flex-layout.row#tab-content"
+    ],
+    "title": [
+      "TIPO DE BEBIDA"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "tab-bebidas",
+      "rowGap": 1
+    }
+  },
+  "flex-layout.row#tab-title": {
+    "children": [
+      "rich-text#title-tab"
+    ],
+    "props":{
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#tab-content": {
+    "children": [
+      "tab-layout#home"
+    ]
+  },
+  "rich-text#title-tab": {
+    "props": {
+      "text": "TIPO DE BEBIDA",
+      "blockClass": "title-tab",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "tab-layout#home": {
@@ -182,86 +221,12 @@
       "tab-content#home"
     ],
     "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "home1"
-    }
+      "blockClass": "tab-home"
+    },
+    "title": "TIPO DE BEBIDA"
   },
-  "tab-list#home": {
+  "flex-layout.row#newsletter": {
     "children": [
-      "tab-list.item#home1",
-      "tab-list.item#home2"
-      ]
-  },
-  "tab-list.item#home1": {
-    "props": {
-      "tabId": "home1",
-      "label": "Home 1",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#home2": {
-    "props": {
-      "tabId": "home2",
-      "label": "Home 2"
-    }
-  },
-  "tab-content#home": {
-    "children": [
-      "tab-content.item#home1",
-      "tab-content.item#home2"
-    ]
-  },
-  "tab-content.item#home1": {
-    "children": [
-      "carousel#home"
-    ],
-    "props": {
-      "tabId": "home1"
-    }
-  },
-  "tab-content.item#home2": {
-    "children": [
-      "shelf#home",
-      "info-card#home"
-    ],
-    "props": {
-      "tabId": "home2"
-    }
-  },
-  "carousel#home": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
-    }
-  },
-  "shelf#home": {
-    "blocks": ["product-summary.shelf#tabs"]
-  },
-  "product-summary.shelf#tabs": {
-    "children": [
-      "product-summary-name",
-      "product-summary-description",
-      "product-summary-image",
-      "product-summary-price",
-      "product-summary-sku-selector",
-      "add-to-cart-button"
-    ],
-    "props": {
-      "blockClass": "shelf-destacadoX",
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false,
-      "fullWidth": true,
-      "width": "70%"
-    }
-  },
-  "info-card#home": {
-    "props": {
-      "text": "One day delivery",
-      "blockClass": "deals"
-    }
-  },
-  "flex-layout.row#newsletter":{
-    "children":[
       "newsletter"
     ],
     "props": {
@@ -269,5 +234,4 @@
       "fullWidth": true
     }
   }
-
 }
