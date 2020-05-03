@@ -62,7 +62,7 @@
     },
     "stack-layout#prodsum": {
         "children": [
-            "product-rating-inline", 
+            "product-rating-inline",
             "product-highlights"
         ]
     },
@@ -71,8 +71,8 @@
             "height": 220
         }
     },
-    "add-to-cart-button":{
-        "props":{
+    "add-to-cart-button": {
+        "props": {
             "Bottom": 0,
             "buttonText": "COMPRAR"
         }
@@ -108,12 +108,45 @@
             "rich-text#not-found"
         ]
     },
-    "newsletter":{
-        "props":{
+    "newsletter": {
+        "props": {
             "label": "SUSCRÍBETE",
-            "submit":"SUSCRIBIRME",
+            "submit": "SUSCRIBIRME",
             "placeholder": "e-mail"
         }
+    },
+    "recommendation-shelf": {
+        "blocks": [
+            "product-summary"
+        ],
+        "props": {
+            "strategy": "most_viewed_user",
+            "secondaryStrategy": "most_viewed_store",
+            "productList": {
+                "maxItems": 10,
+                "itemsPerPage": 4,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Most Viewed Products",
+                "hideUnavailableItems": true,
+                "summary": {
+                    "isOneClickBuy": false,
+                    "showBadge": true,
+                    "badgeText": "OFF",
+                    "buyButtonText": "Comprar",
+                    "displayBuyButton": "displayButtonHover",
+                    "showCollections": false,
+                    "showListPrice": true,
+                    "showLabels": false,
+                    "showInstallments": true,
+                    "showSavings": true,
+                    "name": {
+                        "showBrandName": false,
+                        "showSku": false,
+                        "showProductReference": false
+                    }
+                }
+            }
+        }
     }
-    
 }

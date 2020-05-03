@@ -104,6 +104,15 @@
       "list-context.product-list#seccion-destacado"
     ]
   },
+  "list-context.product-list#seccion-destacado": {
+    "blocks": [
+      "product-summary.shelf#seccion-destacado"
+    ],
+    "children": [
+      "slider-layout#home-products-list-seccion-destacado",
+      "recommendation-shelf"
+    ]
+  },
   "product-summary.shelf#seccion-destacado": {
     "children": [
       "stack-layout#prodsum",
@@ -118,14 +127,6 @@
       "padding": 10,
       "hideUnavailableItems": true
     }
-  },
-  "list-context.product-list#seccion-destacado": {
-    "blocks": [
-      "product-summary.shelf#seccion-destacado"
-    ],
-    "children": [
-      "slider-layout#home-products-list-seccion-destacado"
-    ]
   },
   "slider-layout#home-products-list-seccion-destacado": {
     "props": {
