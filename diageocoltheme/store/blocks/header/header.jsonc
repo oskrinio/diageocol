@@ -206,14 +206,15 @@
     }
   },
   "flex-layout.row#2-mobile":{
-    "children": ["flex-layout.col#search-barMobile"]
+    "children": ["flex-layout.col#search-barMobile"],
+    "props": {
+      "fullWidth": true
+    }
   },
   "flex-layout.col#search-barMobile": {
     "props": {
       "blockClass": "search-barMobile",
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [

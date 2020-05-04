@@ -116,4 +116,9 @@
   :global(.vtex-flex-layout-0-x-flexRowContent){
     height: 100%;
   } 
-  
+  /*
+  :global(.vtex-flex-layout-0-x-flexRow--box-tabs)
+  :global(.flexRowContent){
+    flex-direction: column;
+  } 
+  */ 

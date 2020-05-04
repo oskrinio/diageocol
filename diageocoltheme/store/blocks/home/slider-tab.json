@@ -104,7 +104,7 @@
             "product-summary-image#shelf",
             "stack-layout#prodsum",
             "product-summary-name",
-            "flex-layout.row#selling-price-savings",
+            "product-selling-price#summary",
             "add-to-cart-button"
         ]
     }
