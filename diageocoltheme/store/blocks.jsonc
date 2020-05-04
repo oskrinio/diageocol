@@ -103,39 +103,5 @@
             "submit": "SUSCRIBIRME",
             "placeholder": "e-mail"
         }
-    },
-    "recommendation-shelf": {
-        "blocks": [
-            "product-summary"
-        ],
-        "props": {
-            "strategy": "most_viewed_user",
-            "secondaryStrategy": "most_viewed_store",
-            "productList": {
-                "maxItems": 10,
-                "itemsPerPage": 4,
-                "scroll": "BY_PAGE",
-                "arrows": true,
-                "titleText": "Most Viewed Products",
-                "hideUnavailableItems": true,
-                "summary": {
-                    "isOneClickBuy": false,
-                    "showBadge": true,
-                    "badgeText": "OFF",
-                    "buyButtonText": "Comprar",
-                    "displayBuyButton": "displayButtonHover",
-                    "showCollections": false,
-                    "showListPrice": true,
-                    "showLabels": false,
-                    "showInstallments": true,
-                    "showSavings": true,
-                    "name": {
-                        "showBrandName": false,
-                        "showSku": false,
-                        "showProductReference": false
-                    }
-                }
-            }
-        }
     }
 }
