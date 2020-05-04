@@ -76,7 +76,8 @@
       "text": "DESTACADOS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "text-destacados"
     }
   },
   "rich-text#rt-destacadosSubtitle": {
@@ -84,7 +85,8 @@
       "text": "Los más pedidos",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "txt-subtitle"
     }
   },
   "flex-layout.row#1-zona": {
