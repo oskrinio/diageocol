@@ -188,7 +188,9 @@
     "props": {
       "fullWidth": true,
       "blockClass": "tab-bebidas",
-      "rowGap": 1
+      "rowGap": 0,
+      "colGap": 0,
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#tab-title": {
