@@ -128,7 +128,8 @@
       "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
-      "product-selling-price#summary",
+      "product-list-price",
+      "product-selling-price#summary",      
       "add-to-cart-button"
     ],
     "props": {
@@ -198,7 +199,6 @@
     "props": {
       "width": "100%",
       "blockClass": "tab-bebidas", 
-      "colSizing":"auto",
       "preventVerticalStretch":"true",
       "fullWidth":"true"
     },
