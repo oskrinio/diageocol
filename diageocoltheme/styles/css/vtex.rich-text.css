@@ -20,3 +20,21 @@
     text-transform: uppercase;
     padding: 0 20px;
 }
+.paragraph--text-destacados{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:0;
+}
+.paragraph--text-subtitle{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:0;
+}
