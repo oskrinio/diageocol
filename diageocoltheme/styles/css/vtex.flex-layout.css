@@ -16,4 +16,7 @@
   background-color: #ffffff;
 }
 
-
+.flexRowContent--box-tabs,.flexRowContent--rt-destacados{
+  flex-direction: column;
+  text-align: center;
+}

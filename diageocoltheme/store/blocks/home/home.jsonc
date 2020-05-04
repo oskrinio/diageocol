@@ -5,7 +5,7 @@
       "flex-layout.row#1-destacado",
       "flex-layout.row#1-zona",
       "flex-layout.row#subBanner",
-      "flex-layout.row#tab",
+      "flex-layout.row#boxtab",
       "flex-layout.row#newsletter"
     ]
   },
@@ -67,19 +67,24 @@
     "props": {
       "blockClass": "rt-destacados",
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "width": "100%",
       "fullWidth": true
     }
   },
   "rich-text#rt-destacados": {
     "props": {
-      "text": "DESTACADOS"
+      "text": "DESTACADOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "width": "100%"
     }
   },
   "rich-text#rt-destacadosSubtitle": {
     "props": {
-      "text": "Los más pedidos"
+      "text": "Los más pedidos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "width": "100%"
     }
   },
   "flex-layout.row#1-zona": {
@@ -109,8 +114,7 @@
       "product-summary.shelf#seccion-destacado"
     ],
     "children": [
-      "slider-layout#home-products-list-seccion-destacado",
-      "recommendation-shelf"
+      "slider-layout#home-products-list-seccion-destacado"
     ],
     "props": {
       "hideUnavailableItems": true
@@ -122,7 +126,7 @@
       "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
-      "product-summary-price",
+      "product-selling-price#summary",
       "add-to-cart-button"
     ],
     "props": {
@@ -177,35 +181,47 @@
       "blockClass": "img-subBanner"
     }
   },
-  "flex-layout.row#tab": {
-    "children": [
-      "flex-layout.row#tab-title",
-      "flex-layout.row#tab-content"
-    ],
-    "title": [
-      "TIPO DE BEBIDA"
-    ],
+  "flex-layout.row#boxtab": {
     "props": {
-      "fullWidth": true,
-      "blockClass": "tab-bebidas",
-      "rowGap": 1
-    }
+      "width": "100%",
+      "colSizing":"auto",
+      "blockClass": "box-tabs"
+    },
+    "children": [
+      "flex-layout.col#tab-title",
+      "flex-layout.col#tab"
+    ]
   },
-  "flex-layout.row#tab-title": {
+  "flex-layout.col#tab": {
+    "props": {
+      "width": "100%",
+      "blockClass": "tab-bebidas", 
+      "colSizing":"auto",
+      "preventVerticalStretch":"true",
+      "fullWidth":"true"
+    },
+    "children": [
+      "flex-layout.col#tab-content"
+    ]
+  },
+  "flex-layout.col#tab-title": {
     "children": [
       "rich-text#title-tab"
     ],
     "props":{
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth":"true",
+      "width": "100%",
+      "preventVerticalStretch":"true"
     }
   },
-  "flex-layout.row#tab-content": {
+  "flex-layout.col#tab-content": {
     "children": [
       "tab-layout#home"
-    ]
+    ],
+    "props":{
+      "width": "100%"
+    }
   },
   "rich-text#title-tab": {
     "props": {
