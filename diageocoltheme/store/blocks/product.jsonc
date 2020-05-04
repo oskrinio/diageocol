@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      "flex-layout.row#product-recomentados",
       "shelf.relatedProducts"
     ]
   },
@@ -85,7 +86,7 @@
       "sku-selector",
       "product-assembly-options",
       "product-gifts",
-      "product-separator",      
+      "product-separator",
       "product-description",
       "flex-layout.row#buy-button"
     ]
@@ -120,9 +121,92 @@
       "add-to-cart-button"
     ]
   },
-  "product-quantity#cantidad":{
-    "props":[
-
+  "product-quantity#cantidad": {
+    "props": []
+  },
+  "flex-layout.row#product-recomentados": {
+    "children": [
+      "rich-text#pdp-recomendaciones",
+      "list-context.product-list#list-pdp"
     ]
+  },
+  "rich-text#pdp-recomendaciones": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*RECOMENDACIONES*\nLos mejores acompañantes",
+      "blockClass": "text-recomendaciones"
+    }
+  },
+  "list-context.product-list#list-pdp": {
+    "blocks": [
+      "product-summary.shelf#slider-pdp"
+    ],
+    "children": [
+      "slider-layout#slider-pdp"
+    ],
+    "props": {
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#slider-pdp": {
+    "props": {
+      "blockClass": "home-slider-pdp",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "usePagination": true,
+      "navigationStep": 1,
+      "infinite": true,
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      }
+    }
+  },
+  "product-summary.shelf#slider-pdp": {
+    "children": [
+      "product-summary-image#shelf",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-list-price",
+      "product-selling-price#summary",
+      "add-to-cart-button"
+    ]
+  },
+  "recommendation-shelf": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "strategy": "most_viewed_store",
+      "secondaryStrategy": "most_viewed_user",
+      "productList": {
+        "maxItems": 30,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Most Viewed Products",
+        "hideUnavailableItems": true,
+        "summary": {
+          "isOneClickBuy": false,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonHover",
+          "showCollections": true,
+          "showListPrice": true,
+          "showLabels": false,
+          "showInstallments": true,
+          "showSavings": true,
+          "name": {
+            "showBrandName": true,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
   }
 }
