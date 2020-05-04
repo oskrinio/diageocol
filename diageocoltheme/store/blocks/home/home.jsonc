@@ -126,7 +126,8 @@
       "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
-      "product-selling-price#summary",
+      "product-list-price",
+      "product-selling-price#summary",      
       "add-to-cart-button"
     ],
     "props": {

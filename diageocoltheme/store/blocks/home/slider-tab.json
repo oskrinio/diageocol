@@ -104,6 +104,7 @@
             "product-summary-image#shelf",
             "stack-layout#prodsum",
             "product-summary-name",
+            "product-list-price",
             "product-selling-price#summary",
             "add-to-cart-button"
         ]
