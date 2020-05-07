@@ -5,7 +5,10 @@
       "flex-layout.row#product-main",
       "flex-layout.row#product-recomentados",
       "shelf.relatedProducts"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {

@@ -7,7 +7,10 @@
       "flex-layout.row#subBanner",
       "flex-layout.row#boxtab",
       "flex-layout.row#newsletter"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
   },
   "slider-layout#sliderprincipal": {
     "children": [
