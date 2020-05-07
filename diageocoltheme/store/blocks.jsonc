@@ -1,27 +1,5 @@
 {
-    "login": {
-        "props": {
-            "optionsTitle": "login block 1.0",
-            "showIconProfile": true,
-            "defaultOption": "1",
-            "showPasswordVerificationIntoTooltip": true,
-            "emailPraceholder": "ingresa tu correo electrónico",
-            "passwordPlaceholder": "ingresa tu contraseña"
-        }
-    },
-    "store.orderplaced": {
-        "blocks": [
-            "order-placed"
-        ]
-    },
-    "store.account": {
-        "blocks": [
-            "my-account"
-        ],
-        "parent": {
-            "challenge": "challenge.profile"
-        }
-    },
+    
     "product-price": {
         "props": {
             "showSavings": true,
