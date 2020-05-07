@@ -23,3 +23,17 @@
 .autoCompleteOuterContainer{
     border: none;
 }
+
+/*** PDP ***/
+.productBrand{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "Whisky" */
+    font-family: "Raleway - Light";
+    font-size: 23px;
+    font-weight: 300;
+    /* Text style for "Cardhu 12" */
+    font-size: 23px;
+}

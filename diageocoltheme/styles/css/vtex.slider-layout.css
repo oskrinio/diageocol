@@ -1,3 +1,17 @@
+/*** slider de principal***/
 .sliderLayoutContainer--pruebas{
     margin-bottom: 40px;
+}
+/*** slider de marcas***/
+.slideChildrenContainer--sliderbrands{
+    background-color: white;
+}
+.imageElement--sliderbrands{
+   max-width: 100px;
+   width: 100%;
+   height: auto;
+}
+/*** tabs en el home***/
+.slideChildrenContainer--home-slider-tab{
+    margin-bottom: 40px; 
 }

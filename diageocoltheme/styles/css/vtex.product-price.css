@@ -1,6 +1,6 @@
 .listPrice,  .vtex-product-price-1-x-listPrice{
     color: #cfcfcf; 
-    font-family: Raleway;
+    font-family: Raleway; 
     font-size: 17px;
     font-weight: 500;
     /* Text style for "$00.000" */
@@ -16,7 +16,7 @@
     text-decoration: line-through; 
     display:inline-block;
 }
-.sellingPrice--summary--hasListPrice, .vtex-product-price-1-x-sellingPrice{
+.sellingPrice--summary--hasListPrice, .vtex-product-price-1-x-sellingPrice, .savingsValue, .sellingPriceValue{
     color: #171717;
     font-family: Raleway;
     font-size: 17px;

@@ -62,9 +62,8 @@
     "add-to-cart-button": {
         "props": {
             "Bottom": 0,
-            "buttonText": "COMPRAR"
-        },
-        "title": "COMPRAR"
+            "blockClass": "btn-agregar"
+        }
     },
     "product-summary-specification-badges": {
         "props": {

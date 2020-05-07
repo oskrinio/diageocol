@@ -128,8 +128,7 @@
       "product-summary-image#shelf",
       "product-summary-name",
       "product-summary-space",
-      "product-list-price",
-      "product-selling-price#summary",      
+      "flex-layout.row#precio-venta-anterior",   
       "add-to-cart-button"
     ],
     "props": {

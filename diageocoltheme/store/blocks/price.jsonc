@@ -38,14 +38,26 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4 
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-list-price",
+      "product-selling-price#summary"
     ]
   },
-
+  "flex-layout.row#precio-venta-anterior": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ]
+  },
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
