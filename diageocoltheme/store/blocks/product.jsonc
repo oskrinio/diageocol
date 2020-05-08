@@ -5,7 +5,10 @@
       "flex-layout.row#product-main",
       "flex-layout.row#product-recomentados",
       "shelf.relatedProducts"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -93,7 +96,8 @@
   },
   "flex-layout.row#product-name": {
     "props": {
-      "marginBottom": 3
+      "marginBottom": 3,
+      "blockClass": "product-name"
     },
     "children": [
       "vtex.store-components:product-name"
@@ -170,8 +174,8 @@
       "product-summary-image#shelf",
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-list-price",
-      "product-selling-price#summary",
+      "product-summary-space",
+      "flex-layout.row#precio-venta-anterior",      
       "add-to-cart-button"
     ]
   },

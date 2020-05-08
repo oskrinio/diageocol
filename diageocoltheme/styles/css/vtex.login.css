@@ -38,3 +38,36 @@
 .optionsListItemContainer{
     background-color: red;
 }
+.contentAlwaysWithOptions {
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 40px;
+}
+
+
+:global(.render-route-store-login)
+:global(.render-provider:before)
+{
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    opacity: 0.5;        
+}
+
+.optionsSticky {
+    background-color: cornflowerblue;
+    display: none;
+}
+.dontHaveAccount{
+    display: none;
+}
