@@ -12,7 +12,7 @@
   :global(.vtex-button:focus),
   :global(.vtex-flex-layout-0-x-flexRowContent--barHeader)
   :global(.vtex-button:active){
-    background-color: black; 
+    background-color: #0A0A0A; 
   }  
 .contentInitialScreen{
     box-shadow: 0 -1px 6px #000000;

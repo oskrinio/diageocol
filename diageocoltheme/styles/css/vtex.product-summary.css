@@ -2,11 +2,17 @@
     padding: 0px 5px;
 }
 .brandName{
-    color: #171717;
+    color: #171717; 
     font-family: Raleway;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 400; 
+    overflow: hidden;
+    display: block;
+    text-transform: lowercase;
 } 
+.brandName::first-letter {
+    text-transform: uppercase; 
+}
 .nameContainer{
     display: block;
 }

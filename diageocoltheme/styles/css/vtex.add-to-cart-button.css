@@ -1,0 +1,14 @@
+.buttonText--btn-agregar{
+   font-size: 0;
+   display: block;
+}
+.buttonText--btn-agregar::before{
+    content: 'COMPRAR';
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    display: block;
+    line-height: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+ }

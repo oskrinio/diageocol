@@ -2,7 +2,7 @@
     background-color: white;
 }
 .flexRowContent--barHeader{
-  background-color: black;  
+  background-color: #0A0A0A;  
   display: flex;
    align-items: center; 
 }

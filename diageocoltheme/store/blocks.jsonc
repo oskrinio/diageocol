@@ -35,7 +35,7 @@
         }
     },
     "add-to-cart-button": {
-        "props": {
+        "props": { 
             "Bottom": 0,
             "blockClass": "btn-agregar"
         }
