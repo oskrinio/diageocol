@@ -16,3 +16,7 @@
 .nameContainer{
     display: block;
 }
+/*todos los detalles de product name excepto pdp*/
+.productBrand{ 
+    color:green; 
+}

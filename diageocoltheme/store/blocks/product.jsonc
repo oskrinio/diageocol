@@ -81,6 +81,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
@@ -97,7 +98,7 @@
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3,
-      "blockClass": "product-name"
+      "blockClass": "product-name" 
     },
     "children": [
       "vtex.store-components:product-name"

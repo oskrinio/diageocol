@@ -20,3 +20,6 @@
   flex-direction: column;
   text-align: center;
 }
+.flexRow--product-name{
+   color: red;
+}
