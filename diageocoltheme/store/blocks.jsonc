@@ -34,8 +34,8 @@
             "product-summary-image#shelf",
             "stack-layout#prodsum",
             "product-summary-name",
-            "product-list-price",
-            "product-selling-price#summary",
+            "product-summary-space",
+            "flex-layout.row#precio-venta-anterior",            
             "add-to-cart-button"
         ]
     },
