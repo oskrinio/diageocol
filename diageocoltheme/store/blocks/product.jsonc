@@ -15,8 +15,13 @@
       "marginTop": 4
     },
     "children": [
-      "breadcrumb"
+      "breadcrumb#pdp"
     ]
+  },
+  "breadcrumb#pdp":{
+    "props": {
+      "blockClass": "box-breadcrumb"
+    }
   },
   "flex-layout.row#product-main": {
     "props": {
