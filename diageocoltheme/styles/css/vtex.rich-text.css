@@ -38,3 +38,11 @@
     text-transform: uppercase;
     margin:0;
 }
+.container--title-link{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}

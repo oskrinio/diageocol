@@ -25,7 +25,6 @@
       "vtex.menu@2.x:menu#Sabermas-desktop",
       "vtex.menu@2.x:menu#ayuda-desktop",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
       "social-networks"
     ],
     "props": {
@@ -36,6 +35,27 @@
     }
   },
   "social-networks": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "box-items-redes-sociales"
+    },
+    "children": [
+      "flex-layout.row#titulo-RedSocial",
+      "redes-sociales"
+    ]
+  },
+  "flex-layout.row#titulo-RedSocial": {
+    "children": [
+      "rich-text#Titulo-redsocial"
+    ]
+  },
+  "rich-text#Titulo-redsocial": {
+    "props": {
+      "text": "Contactanos",
+      "blockClass": "title-link"
+    }
+  },
+  "redes-sociales": {
     "props": {
       "socialNetworks": [
         {

@@ -38,7 +38,7 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4 
+      "marginBottom": 4
     },
     "children": [
       "product-list-price",
@@ -57,6 +57,30 @@
       "product-list-price",
       "product-selling-price"
     ]
+  },
+  "flex-layout.row#precio-venta-anterior-pdp": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "horizontalAlign": "center",
+      "blockClass": "precio-pdp"
+    },
+    "children": [
+      "product-list-price#pdp",
+      "product-selling-price#pdp"
+    ]
+  },
+  "product-list-price#pdp": {
+    "props": {
+      "blockClass": "precio-anterior-pdp"
+    }
+  },
+  "product-selling-price#pdp": {
+    "props": {
+      "blockClass": "precio-actual-pdp"
+    }
   },
   "flex-layout.row#list-price-savings": {
     "props": {

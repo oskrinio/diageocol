@@ -11,15 +11,35 @@
 }
 .flexRowContent--footer{
   background-color: #000;
+  padding: 36px 40px;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
+
+.flexRowContent--footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  margin: 0 10px;
+  max-width: 200px;
+}
+
 .flexCol--search-barMobile{
   background-color: #ffffff;
 }
 
-.flexRowContent--box-tabs,.flexRowContent--rt-destacados{
+.flexRowContent--box-tabs, .flexRowContent--rt-destacados{
   flex-direction: column;
   text-align: center;
 }
+/*** pdp ***/
 .flexRow--product-name{
-   color: red;
+  color: #000000;
 }
+.flexRowContent--precio-pdp{
+  justify-content: flex-start
+
+}
+.flexRowContent--product-recomendaciones{
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
