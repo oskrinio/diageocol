@@ -38,6 +38,7 @@ function ageOK() {
 
 function ageKO() {
     removeCookie("age-validation");
+    top.location = 'https://dev--diageocol.myvtex.com/';
 }
 
 function inicio(opc) {
@@ -49,13 +50,7 @@ function inicio(opc) {
             }
             break;
         case "validar":
-            
-            if (age == "OK") {
-                top.location = 'https://dev--diageocol.myvtex.com/';
-            }
-            else{
-                validarEdadInicio();
-            }
+            validarEdadInicio();
 
             break;
     }

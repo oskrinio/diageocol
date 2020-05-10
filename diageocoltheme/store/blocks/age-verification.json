@@ -11,9 +11,10 @@
     },
     "iframe#age-verification": {
         "props": {
-            "src": "//oskrinio.com/diageocol/age-validation.php",
-            "width": "100",
-            "height": "100"            
+            "src": "//oskrinio.com/diageocol/age-validation.html",
+            "blockClass": "iframe-age-validation",
+            "width": "100%",
+            "height": "100%"
         }
     }
 }
