@@ -1,0 +1,19 @@
+{
+    "store.custom#age-verification": {
+        "blocks": [
+            "flex-layout.row#age-verification"
+        ]
+    },
+    "flex-layout.row#age-verification": {
+        "children":[
+            "iframe#age-verification"
+        ]
+    },
+    "iframe#age-verification": {
+        "props": {
+            "src": "//oskrinio.com/diageocol/age-validation.php",
+            "width": "100",
+            "height": "100"            
+        }
+    }
+}

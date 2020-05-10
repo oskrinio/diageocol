@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#age-age",      
       "slider-layout#sliderprincipal",
       "flex-layout.row#1-destacado",
       "flex-layout.row#1-zona",
