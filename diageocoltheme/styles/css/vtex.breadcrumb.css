@@ -1,0 +1,16 @@
+.homeIcon--box-breadcrumb{
+    display: none;
+}
+.link--box-breadcrumb{
+    font-family: "Raleway";
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+}
+.term--box-breadcrumb{
+   font-family: "Raleway";
+   font-style: italic;
+   font-weight: 600;
+   font-size: 12px;
+   font-weight: 300; 
+}

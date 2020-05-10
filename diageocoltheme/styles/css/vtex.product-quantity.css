@@ -1,0 +1,15 @@
+.quantitySelectorContainer{
+    max-width: 150px;
+}
+.quantitySelectorTitle{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.quantitySelectorStepper{
+  text-align: center;
+}
+
