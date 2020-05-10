@@ -25,7 +25,7 @@
       "vtex.menu@2.x:menu#Sabermas-desktop",
       "vtex.menu@2.x:menu#ayuda-desktop",
       "vtex.menu@2.x:menu#footer-bags",
-      "social-networks"
+      "flex-layout.row#titulo-RedSocial"
     ],
     "props": {
       "blockClass": "footer",
@@ -33,20 +33,11 @@
       "paddingBottom": 3,
       "fullWidth": true
     }
-  },
-  "social-networks": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "box-items-redes-sociales"
-    },
-    "children": [
-      "flex-layout.row#titulo-RedSocial",
-      "redes-sociales"
-    ]
-  },
+  },  
   "flex-layout.row#titulo-RedSocial": {
     "children": [
-      "rich-text#Titulo-redsocial"
+      "rich-text#Titulo-redsocial",
+      "social-networks"
     ]
   },
   "rich-text#Titulo-redsocial": {
@@ -55,8 +46,9 @@
       "blockClass": "title-link"
     }
   },
-  "redes-sociales": {
+  "social-networks": {
     "props": {
+      "blockClass": "box-items-redes-sociales",
       "socialNetworks": [
         {
           "name": "Facebook",
