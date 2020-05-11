@@ -56,7 +56,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer",
-      "flex-layout.col#menu-link",
+      "flex-layout.row#menu-link",
       "flex-layout.col#spacer",
       "flex-layout.col#menu-login",
       "flex-layout.col#menu-minicart",
@@ -103,7 +103,7 @@
       "maxWidth": 273
     }
   },
-  "flex-layout.col#menu-link": {
+  "flex-layout.row#menu-link": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "rigth",
@@ -112,7 +112,9 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#categorias"
+      "modal-trigger#bebidas",
+      "flex-layout.col#spacer",
+      "modal-trigger#recetas"
     ]
   },
   "flex-layout.col#spacer": {

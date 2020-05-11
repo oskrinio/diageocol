@@ -1,68 +1,187 @@
 {
-    "vtex.menu@2.x:menu#categorias": {
+    "modal-trigger#bebidas": {
         "children": [
-            "menu-item#bebidas-desktop",
-            "menu-item#recetas-desktop"
+            "rich-text#bebidas",
+            "modal-layout#bebidas"
         ],
-        "props":{
-            "blockClass": "header-menu"
-        }
-    },
-    "menu-item#bebidas-desktop": {
         "props": {
-            "id": "menu-item-bebidas-desktop",
-            "blockClass": "header-menu-bebidas-desktop",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "desktop",
-                "text": "BEBIDAS"
-            }
+            "trigger": "click"
         }
     },
-    "flex-layout.col#flex-col-bebidas":{
-        "children":[
-            "list-context.image-list#img-bebidas"        
+    "rich-text#bebidas": {
+        "props": {
+            "text": "BEBIDAS",
+            "blockClass": "mn-header"
+        }
+    },
+    "modal-layout#bebidas": {
+        "children": [
+            "flex-layout.row#bebidas"
         ]
     },
-    "list-context.image-list#img-bebidas": {
-        "children": [
-        ],
+    "flex-layout.row#bebidas": {
         "props": {
-            "images": [
-                {
-                    "image": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
-                    "description": "Bebidas-malta",
-                    "mobileImage": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
-                    "url": "/MALTAS"
-                },
-                {
-                    "image": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
-                    "description": "bebidas-ginebra",
-                    "mobileImage": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
-                    "url": "/GINEBRA"
-                }
-            ]
+            "blockClass": "row-bebidas",
+            "borderColor": "black",
+            "colGap": 5,
+            "rowGap": 3,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#bebidas-maltas",
+            "flex-layout.col#bebidas-ginebra"
+        ]
+    },
+    "flex-layout.col#bebidas-maltas":{
+        "props":{
+            "horizontalAlign": "center",
+            "paddingRight": 20
+        },
+        "children":[
+            "image#bebidas-maltas",
+            "rich-text#bebidas-maltas"
+        ]
+    },
+    "image#bebidas-maltas":{
+        "props":{
+            "src": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
+            "link": {
+                "url": "/MALTAS",
+                "openNewTab": false
+            },
+            "title": "MALTAS",
+            "maxHeight": "170"
         }
     },
-    "menu-item#recetas-desktop": {
+    "rich-text#bebidas-maltas": {
         "props": {
-            "id": "menu-item-recetas-desktop",
-            "blockClass": "header-menu-recetas-desktop",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "RECETAS",
-                "text": "RECETAS"
-            }
+            "text": "MALTAS",
+            "blockClass": "text-bebidas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "flex-layout.col#bebidas-ginebra": {
+        "props": {
+            "horizontalAlign": "center",
+            "paddingRight": 20
+        },
+        "children": [
+            "image#bebidas-ginebra",
+            "rich-text#bebidas-ginebra"
+        ]
+    },
+    "image#bebidas-ginebra": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
+            "link": {
+                "url": "/GINEBRA",
+                "openNewTab": false
+            },
+            "title": "GINEBRA",
+            "maxHeight": "170"
+        }
+    },
+    "rich-text#bebidas-ginebra": {
+        "props": {
+            "text": "ginebra",
+            "blockClass": "text-bebidas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "modal-trigger#recetas": {
+        "children": [
+            "rich-text#recetas",
+            "modal-layout#recetas"
+        ],
+        "props": {
+            "trigger": "click"
+        }
+    },
+    "rich-text#recetas": {
+        "props": {
+            "text": "recetas",
+            "blockClass": "mn-header"
+        }
+    },
+    "modal-layout#recetas": {
+        "children": [
+            "flex-layout.row#recetas"
+        ]
+    },
+    "flex-layout.row#recetas": {
+        "props": {
+            "blockClass": "row-recetas",
+            "borderColor": "black",
+            "colGap": 5,
+            "rowGap": 3,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#recetas-punch",
+            "flex-layout.col#recetas-congelados"
+        ]
+    },
+    "flex-layout.col#recetas-punch": {
+        "props": {
+            "horizontalAlign": "center",
+            "paddingRight": 20
+        },
+        "children": [
+            "image#recetas-punch",
+            "rich-text#recetas-punch"
+        ]
+    },
+    "image#recetas-punch": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/recetas-punch.png",
+            "link": {
+                "url": "/punch",
+                "openNewTab": false
+            },
+            "title": "PUNCH",
+            "maxHeight": "170"
+        }
+    },
+    "rich-text#recetas-punch": {
+        "props": {
+            "text": "punch",
+            "blockClass": "text-recetas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#recetas-congelados": {
+        "props": {
+            "horizontalAlign": "center",
+            "paddingRight": 20
+        },
+        "children": [
+            "image#recetas-congelados",
+            "rich-text#recetas-congelados"
+        ]
+    },
+    "image#recetas-congelados": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/recetas-congelados.png",
+            "link": {
+                "url": "#",
+                "openNewTab": false
+            },
+            "title": "CONGELADOS",
+            "maxHeight": "170"
+        }
+    },
+    "rich-text#recetas-congelados": {
+        "props": {
+            "text": "congelados",
+            "blockClass": "text-recetas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
         }
     }
+
+    
 }
