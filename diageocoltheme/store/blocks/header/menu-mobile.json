@@ -73,10 +73,10 @@
         },
         "children": [
             "image#bebida-ginebra",
-            "rich-text#bebidas-ginebra"
+            "rich-text#bebidas-ginebra-mobile"
         ]
     },
-    "rich-text#bebidas-ginebra": {
+    "rich-text#bebidas-ginebra-mobile": {
         "props": {
             "text": "GINEBRA",
             "blockClass": "text-menu-bebidas"
@@ -171,11 +171,11 @@
             "blockClass": "col-elementos-recetas"
         },
         "children": [
-            "image#recetas-punch",
-            "rich-text#recetas-punch"
+            "image#recetas-punch-mobile",
+            "rich-text#recetas-punch-mobile"
         ]
     },
-    "image#recetas-punch": {
+    "image#recetas-punch-mobile": {
         "props": {
             "src": "https://diageocol.vteximg.com.br/arquivos/recetas-punch.png",
             "blockClass": "image-bebidas",
@@ -187,7 +187,7 @@
             "fullWidth": true
         }
     },
-    "rich-text#recetas-punch": {
+    "rich-text#recetas-punch-mobile": {
         "props": {
             "text": "PUNCH",
             "blockClass": "text-menu-bebidas"
@@ -198,11 +198,11 @@
             "blockClass": "col-elementos-recetas"
         },
         "children": [
-            "image#recetas-congelados",
-            "rich-text#recetas-congelados"
+            "image#recetas-congelados-mobile",
+            "rich-text#recetas-congelados-mobile"
         ]
     },
-    "image#recetas-congelados": {
+    "image#recetas-congelados-mobile": {
         "props": {
             "src": "https://diageocol.vteximg.com.br/arquivos/recetas-congelados.png",
             "blockClass": "image-bebidas",
@@ -214,7 +214,7 @@
             "fullWidth": true
         }
     },
-    "rich-text#recetas-congelados": {
+    "rich-text#recetas-congelados-mobile": {
         "props": {
             "text": "CONGELADOS",
             "blockClass": "text-menu-bebidas"
