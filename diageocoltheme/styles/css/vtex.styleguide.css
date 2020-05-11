@@ -27,6 +27,22 @@
    text-align:left;
 }
 
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button)
+  :global(.vtex-button__label){
+   font-size: 0px;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before{
+    content: 'Finalizar compra';
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
 .b--action-primary {
     border-color: #ff5e00;
 }

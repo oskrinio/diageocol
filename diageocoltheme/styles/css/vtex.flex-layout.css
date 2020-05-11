@@ -18,8 +18,8 @@
 }
 
 .flexRowContent--footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-  margin: 0 10px;
-  max-width: 200px;
+  margin: 0 2.5%;
+  max-width: 216px;
 }
 
 .flexCol--search-barMobile{
@@ -30,6 +30,7 @@
   flex-direction: column;
   text-align: center;
 }
+
 /*** pdp ***/
 .flexRow--product-name{
   color: #000000;
@@ -38,8 +39,11 @@
   justify-content: flex-start
 
 }
+
 .flexRowContent--product-recomendaciones{
   flex-direction: column;
   margin-bottom: 40px;
 }
+
+
 
