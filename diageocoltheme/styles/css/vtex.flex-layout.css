@@ -44,6 +44,11 @@
   flex-direction: column;
   margin-bottom: 40px;
 }
+.flexRowContent--row-element-bebidas, .flexRowContent--row-element-recetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

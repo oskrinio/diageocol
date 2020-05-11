@@ -122,9 +122,24 @@
   :global(.vtex-flex-layout-0-x-flexRowContent){
     height: 100%;
   } 
-  /*
-  :global(.vtex-flex-layout-0-x-flexRow--box-tabs)
-  :global(.flexRowContent){
-    flex-direction: column;
-  } 
-  */ 
+  
+  :global(.vtex-store-drawer-0-x-drawer){
+    background-color: #e5e1dfff;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--box-mobile){
+     width: 100%;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--box-mobile)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem){
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+ } 
+ :global(.vtex-menu-2-x-menuContainerNav--box-mobile)
+  :global(.vtex-menu-2-x-menuContainer)
+    :global(.vtex-menu-2-x-menuItem)
+      :global(.vtex-menu-2-x-menuContainerNav){
+        width: 100%;
+
+}
+        

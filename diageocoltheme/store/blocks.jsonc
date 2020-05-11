@@ -16,6 +16,22 @@
             "logInButtonBehavior": "/login"
         }
     },
+    "store.login": {
+        "blocks": [
+            "login-content#default"
+        ]
+    },
+    "login-content#default": {
+        "props": {
+            "optionsTitle": "",
+            "showIconProfile": true,
+            "defaultOption": "1",
+            "showPasswordVerificationIntoTooltip" : true,
+            "emailPraceholder": "ingresa tu correo electrónico",
+            "passwordPlaceholder": "ingresa tu contraseña",
+            "isInitialScreenOptionOnly": false
+        }
+    },
     "product-price": {
         "props": {
             "showSavings": true,

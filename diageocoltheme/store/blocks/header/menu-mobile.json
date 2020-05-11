@@ -6,12 +6,17 @@
             "menu-item#login"
         ],
         "props": {
-            "blockClass": "header-menu"
+            "blockClass": "header-menu",
+            "orientation": "vertical",
+            "width": "100%",
+            "colSizing": "auto"
         }
     },
     "menu-item#bebidas-mobile": {
         "props": {
             "id": "menu-item-bebidas-mobile",
+            "blockClass": "menu-item-bebidas-mobile",
+            "width": "100%",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -34,63 +39,92 @@
     },
     "vtex.menu@2.x:menu#bebidas-accordion": {
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": "100%"
         },
         "children": [
-            "menu-item#menu-item-bebidas-ginebra",
-            "menu-item#menu-item-bebidas-maltas"
+            "menu-item#menu-item-bebidas"
         ]
     },
-    "menu-item#menu-item-bebidas-ginebra": {
+    "menu-item#menu-item-bebidas": {
         "props": {
-            "id": "menu-item-bebidas-ginebra",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "GINEBRA",
-                "noFollow": false,
-                "tagTitle": "GINEBRA",
-                "text": "GINEBRA"
-            },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+            "horizontalAlign": "center",
+            "width": "100%",
+            "paddingTop": 6
+        },
+        "children": [
+            "flex-layout.row#elementos-bebidas"
+        ]
+    },
+    "flex-layout.row#elementos-bebidas": {
+        "props": {
+            "blockClass": "row-element-bebidas",
+            "colGap": 2,
+            "rowGap": 3
+        },
+        "children": [
+            "flex-layout.col#elementos-bebidas-ginebra",
+            "flex-layout.col#elementos-bebidas-malta"
+        ]
+    },
+    "flex-layout.col#elementos-bebidas-ginebra": {
+        "props": {
+            "blockClass": "col-elementos-bebidas"
+        },
+        "children": [
+            "image#bebida-ginebra",
+            "rich-text#bebidas-ginebra"
+        ]
+    },
+    "rich-text#bebidas-ginebra": {
+        "props": {
+            "text": "GINEBRA",
+            "blockClass": "text-menu-bebidas"
         }
     },
-    "menu-item#menu-item-bebidas-maltas": {
+    "image#bebida-ginebra": {
         "props": {
-            "id": "menu-item-bebidas-maltas",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/MALTAS",
-                "noFollow": false,
-                "tagTitle": "MALTAS",
-                "text": "MALTAS"
+            "src": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
+            "blockClass": "image-bebidas",
+            "maxHeight": 170,
+            "link": {
+                "url": "/GINEBRA",
+                "openNewTab": false
             },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#elementos-bebidas-malta": {
+        "props": {
+            "blockClass": "elementos-bebidas"
+        },
+        "children": [
+            "image#bebida-malta",
+            "rich-text#bebidas-malta"
+        ]
+    },
+    "rich-text#bebidas-malta": {
+        "props": {
+            "text": "MALTAS",
+            "blockClass": "text-menu-bebidas"
+        }
+    },
+    "image#bebida-malta": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
+            "blockClass": "image-bebidas",
+            "maxHeight": 170,
+            "link": {
+                "url": "/MALTAS",
+                "openNewTab": false
             },
-            "iconToTheRight": true
+            "fullWidth": true
         }
     },
     "menu-item#recetas-mobile": {
         "props": {
             "id": "menu-item-recetas-mobile",
-            "blockClass": "header-menu-recetas-mobile",
+            "blockClass": "menu-item-recetas-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -116,59 +150,80 @@
             "orientation": "vertical"
         },
         "children": [
-            "menu-item#menu-item-recetas-punch",
-            "menu-item#menu-item-recetas-congelados"
+            "flex-layout.row#elementos-recetas"
         ]
     },
-    "menu-item#menu-item-recetas-punch": {
+
+
+    "flex-layout.row#elementos-recetas": {
         "props": {
-            "id": "menu-item-recetas-punch",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "PUNCH",
-                "text": "PUNCH"
+            "blockClass": "row-element-recetas",
+            "colGap": 2,
+            "rowGap": 3
+        },
+        "children": [
+            "flex-layout.col#elementos-recetas-punch",
+            "flex-layout.col#elementos-recetas-congelados"
+            ]
+    },
+    "flex-layout.col#elementos-recetas-punch": {
+        "props": {
+            "blockClass": "col-elementos-recetas"
+        },
+        "children": [
+            "image#recetas-punch",
+            "rich-text#recetas-punch"
+        ]
+    },
+    "image#recetas-punch": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/recetas-punch.png",
+            "blockClass": "image-bebidas",
+            "maxHeight": 170,
+            "link": {
+                "url": "#",
+                "openNewTab": false
             },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+            "fullWidth": true
         }
     },
-    "menu-item#menu-item-recetas-congelados": {
+    "rich-text#recetas-punch": {
         "props": {
-            "id": "menu-item-recetas-congelados",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "CONGELADOS",
-                "text": "CONGELADOS"
+            "text": "PUNCH",
+            "blockClass": "text-menu-bebidas"
+        }
+    },
+    "flex-layout.col#elementos-recetas-congelados": {
+        "props": {
+            "blockClass": "col-elementos-recetas"
+        },
+        "children": [
+            "image#recetas-congelados",
+            "rich-text#recetas-congelados"
+        ]
+    },
+    "image#recetas-congelados": {
+        "props": {
+            "src": "https://diageocol.vteximg.com.br/arquivos/recetas-congelados.png",
+            "blockClass": "image-bebidas",
+            "maxHeight": 170,
+            "link": {
+                "url": "#",
+                "openNewTab": false
             },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+            "fullWidth": true
+        }
+    },
+    "rich-text#recetas-congelados": {
+        "props": {
+            "text": "CONGELADOS",
+            "blockClass": "text-menu-bebidas"
         }
     },
     "menu-item#login": {
         "props": {
-            "id": "menu-item-login",
+            "id": "menu-item-iniciar-sesion",
+            "blockClass": "menu-item-iniciar-sesion",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -177,7 +232,7 @@
                 "href": "/login",
                 "noFollow": false,
                 "tagTitle": "LOGIN",
-                "text": "LOGIN"
+                "text": "INICIAR SESIÓN"
             },
             "iconProps": {
                 "id": "bnd-login",

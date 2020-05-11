@@ -184,17 +184,23 @@
     }
   },
   "drawer": {
+    "props": {
+      "width": "80%"
+    },
     "children": [
       "menu#drawer"
     ]
   },
   "menu#drawer": {
+    "props": {
+      "blockClass": "box-mobile",
+      "orientation": "vertical",
+      "fullWidth": true,
+      "width": "100%"
+    },
     "children": [
       "vtex.menu@2.x:menu#drawer-menu"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
+    ]
   },
   "logo#mobile": {
     "props": {
