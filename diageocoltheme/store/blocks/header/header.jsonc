@@ -129,7 +129,8 @@
       "fullWidth": true
     },
     "children": [
-      "login" ]
+      "login"
+    ]
   },
   "flex-layout.col#menu-minicart": {
     "props": {
@@ -205,8 +206,10 @@
       "height": ""
     }
   },
-  "flex-layout.row#2-mobile":{
-    "children": ["flex-layout.col#search-barMobile"],
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "flex-layout.col#search-barMobile"
+    ],
     "props": {
       "fullWidth": true
     }

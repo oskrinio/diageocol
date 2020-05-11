@@ -13,18 +13,26 @@ html{
     flex-direction: column;
     background-color: #FFF;
     max-width: 600px;
-    height: 100%;
     align-items: center;
     font: 14px Arial;
     margin: 0 auto;
     box-shadow: 0 3px 6px rgba(255, 255, 255, 0.7);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-top: 40px;
+    height: 600px;
+    width: 600px;
 }
 .logo{
     background-image: url(http://diageocol.vteximg.com.br/arquivos/logoBlack.png);
     width: 323px;
     height: 63px;
     display: block;
-    margin-top: 70px;
+    margin-top: 15%;
     margin-bottom: 140px;
     background-repeat: no-repeat;
 }
@@ -75,4 +83,16 @@ html{
 .btn-si{
     color:  #ffffff;
     background-color:#000000;
+}
+@media (max-width: 600px){
+    .logo{
+        margin-bottom: 70px;
+    }
+    .flex-btn{
+        margin-bottom: 20px;
+    }
+    .copy{
+        width: 300px;
+        text-align: center;
+    }    
 }
