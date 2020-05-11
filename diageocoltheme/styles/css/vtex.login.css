@@ -71,3 +71,7 @@
 .dontHaveAccount{
     display: none;
 }
+
+.box{
+    top:140px;
+}

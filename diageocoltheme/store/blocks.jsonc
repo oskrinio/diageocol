@@ -2,25 +2,18 @@
     "store.account": {
         "blocks": [
             "my-account"
-        ],
-        "parent": {
-            "challenge": "challenge.profile"
-        }
-    },    
-    "store.login": {
-        "blocks": [
-            "login-content#default"
         ]
-    },
-    "login-content#default": {
+    },    
+    "login": {
         "props": {
             "optionsTitle": "",
             "showIconProfile": true,
             "defaultOption": "1",
-            "showPasswordVerificationIntoTooltip" : true,
+            "showPasswordVerificationIntoTooltip": true,
             "emailPraceholder": "ingresa tu correo electrónico",
             "passwordPlaceholder": "ingresa tu contraseña",
-            "isInitialScreenOptionOnly": false
+            "isInitialScreenOptionOnly": false,
+            "logInButtonBehavior": "/login"
         }
     },
     "product-price": {
