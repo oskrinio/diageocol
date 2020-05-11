@@ -55,7 +55,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: rgba(240, 240, 240, 0.8);
+    background:black;
   }
 }
 
@@ -84,12 +84,18 @@
 }
 /*** border input search **/
 :global(.vtex-store-components-3-x-searchBarContainer)
-  :global(.vtex-input-prefix__group){
-    border:none;
-    height: 30px;
-    border-radius: 6px;
-   
-}
+    :global(.vtex-input-prefix__group){
+      border:1px solid #ccc;
+      height: 30px;
+      border-radius: 6px;
+    
+  }
+@media (min-width: 1024px) {
+  :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-input-prefix__group){
+      border:none;
+    }
+}  
 
 :global(.vtex-store-components-3-x-searchBarContainer)
   :global(.vtex-styleguide-9-x-input){

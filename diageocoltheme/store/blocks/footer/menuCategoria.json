@@ -27,13 +27,13 @@
   },
   "menu-item#vodka": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-vodka",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/vodka",
         "noFollow": false,
         "tagTitle": "Vodka",
         "text": "Vodka"
@@ -42,13 +42,13 @@
   },
   "menu-item#crema": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-black-crema",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "crema",
         "noFollow": false,
         "tagTitle": "Crema",
         "text": "Crema"
@@ -57,13 +57,13 @@
   },
   "menu-item#ginebra": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-ginebra",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "ginebra",
         "noFollow": false,
         "tagTitle": "Ginebra",
         "text": "Ginebra"
@@ -72,13 +72,13 @@
   },
   "menu-item#ron": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-ron",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "ron",
         "noFollow": false,
         "tagTitle": "Ron",
         "text": "Ron"
