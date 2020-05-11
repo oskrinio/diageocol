@@ -45,5 +45,10 @@
   margin-bottom: 40px;
 }
 
-
+.flexRowContent--row-bebidas, .flexRowContent--row-recetas{
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
