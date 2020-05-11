@@ -1,0 +1,8 @@
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    flex-flow: inherit;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
