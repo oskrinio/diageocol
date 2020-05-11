@@ -190,8 +190,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#bebidas",
-      "menu-item#recetas"
+      "vtex.menu@2.x:menu#drawer-menu"
     ],
     "props": {
       "orientation": "vertical"
