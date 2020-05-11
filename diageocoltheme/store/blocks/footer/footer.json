@@ -24,8 +24,7 @@
       "vtex.menu@2.x:menu#Categorias-desktop",
       "vtex.menu@2.x:menu#Sabermas-desktop",
       "vtex.menu@2.x:menu#ayuda-desktop",
-      "vtex.menu@2.x:menu#footer-bags",
-      "flex-layout.row#titulo-RedSocial"
+      "flex-layout.col#content-RedSocial"
     ],
     "props": {
       "blockClass": "footer",
@@ -34,9 +33,16 @@
       "fullWidth": true
     }
   },  
-  "flex-layout.row#titulo-RedSocial": {
+  "flex-layout.col#content-RedSocial": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "content-redsocial"
+    },  
     "children": [
       "rich-text#Titulo-redsocial",
+      "menu-item#email",
+      "menu-item#telefono",
+      "menu-item#telefonofijo",
       "social-networks"
     ]
   },
@@ -151,6 +157,51 @@
     ],
     "props": {
       "fullWidth": true
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "thebarcolombia@correo.com",
+        "text": "thebarcolombia@correo.com"
+      }
+    }
+  },
+  "menu-item#telefono": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "+57 3001234567",
+        "text": "+57 3001234567"
+      }
+    }
+  },
+  "menu-item#telefonofijo": {
+    "props": {
+      "id": "menu-item-telefonofijo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", 
+        "noFollow": false,
+        "tagTitle": "123 4567",
+        "text": "123 4567"
+      }
     }
   }
 }
