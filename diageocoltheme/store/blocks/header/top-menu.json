@@ -1,33 +1,58 @@
 {
     "vtex.menu@2.x:menu#categorias": {
         "children": [
-            "menu-item#bebidas",
-            "menu-item#recetas"
+            "menu-item#bebidas-desktop",
+            "menu-item#recetas-desktop"
         ],
         "props":{
             "blockClass": "header-menu"
         }
     },
-    "menu-item#bebidas": {
+    "menu-item#bebidas-desktop": {
         "props": {
-            "id": "menu-item-bebidas",
-            "blockClass": "header-menu-bebidas",
+            "id": "menu-item-bebidas-desktop",
+            "blockClass": "header-menu-bebidas-desktop",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/137?map=productClusterIds",
+                "href": "#",
                 "noFollow": false,
-                "tagTitle": "BEBIDAS",
+                "tagTitle": "desktop",
                 "text": "BEBIDAS"
             }
         }
     },
-    "menu-item#recetas": {
+    "flex-layout.col#flex-col-bebidas":{
+        "children":[
+            "list-context.image-list#img-bebidas"        
+        ]
+    },
+    "list-context.image-list#img-bebidas": {
+        "children": [
+        ],
         "props": {
-            "id": "menu-item-recetas",
-            "blockClass": "header-menu-recetas",
+            "images": [
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
+                    "description": "Bebidas-malta",
+                    "mobileImage": "https://diageocol.vteximg.com.br/arquivos/bebidas-malta.png",
+                    "url": "/MALTAS"
+                },
+                {
+                    "image": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
+                    "description": "bebidas-ginebra",
+                    "mobileImage": "https://diageocol.vteximg.com.br/arquivos/bebidas-ginebra.png",
+                    "url": "/GINEBRA"
+                }
+            ]
+        }
+    },
+    "menu-item#recetas-desktop": {
+        "props": {
+            "id": "menu-item-recetas-desktop",
+            "blockClass": "header-menu-recetas-desktop",
             "type": "custom",
             "iconId": null,
             "highlight": false,

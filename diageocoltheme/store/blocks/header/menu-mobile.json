@@ -1,0 +1,192 @@
+{
+    "vtex.menu@2.x:menu#drawer-menu": {
+        "children": [
+            "menu-item#bebidas-mobile",
+            "menu-item#recetas-mobile",
+            "menu-item#login"
+        ],
+        "props": {
+            "blockClass": "header-menu"
+        }
+    },
+    "menu-item#bebidas-mobile": {
+        "props": {
+            "id": "menu-item-bebidas-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "BEBIDAS",
+                "text": "BEBIDAS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#bebidas"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#bebidas": {
+        "children": [
+            "vtex.menu@2.x:menu#bebidas-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#bebidas-accordion": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#menu-item-bebidas-ginebra",
+            "menu-item#menu-item-bebidas-maltas"
+        ]
+    },
+    "menu-item#menu-item-bebidas-ginebra": {
+        "props": {
+            "id": "menu-item-bebidas-ginebra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "GINEBRA",
+                "noFollow": false,
+                "tagTitle": "GINEBRA",
+                "text": "GINEBRA"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#menu-item-bebidas-maltas": {
+        "props": {
+            "id": "menu-item-bebidas-maltas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/MALTAS",
+                "noFollow": false,
+                "tagTitle": "MALTAS",
+                "text": "MALTAS"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#recetas-mobile": {
+        "props": {
+            "id": "menu-item-recetas-mobile",
+            "blockClass": "header-menu-recetas-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "RECETAS",
+                "text": "RECETAS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#recetas"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#recetas": {
+        "children": [
+            "vtex.menu@2.x:menu#recetas-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#recetas-accordion": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#menu-item-recetas-punch",
+            "menu-item#menu-item-recetas-congelados"
+        ]
+    },
+    "menu-item#menu-item-recetas-punch": {
+        "props": {
+            "id": "menu-item-recetas-punch",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "PUNCH",
+                "text": "PUNCH"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#menu-item-recetas-congelados": {
+        "props": {
+            "id": "menu-item-recetas-congelados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "CONGELADOS",
+                "text": "CONGELADOS"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#login": {
+        "props": {
+            "id": "menu-item-login",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/login",
+                "noFollow": false,
+                "tagTitle": "LOGIN",
+                "text": "LOGIN"
+            },
+            "iconProps": {
+                "id": "bnd-login",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}
